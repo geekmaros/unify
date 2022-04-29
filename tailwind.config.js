@@ -9,6 +9,8 @@ module.exports = {
         "unify-dark-200": "#383841",
         "unify-dark-300": "#2F2D37",
         "unify-gray-100": "#878787",
+        "unify-gray-200": "#545454",
+        "unify-light-stroke": "#EAEAEA",
         "unify-purple-100": "#E7DFED",
         "unify-purple-200": "#BC9CDB",
         "unify-purple-300": "#5F1DA0",
@@ -42,6 +44,7 @@ module.exports = {
       spacing:{
         "279px": "17.4375rem",
         "210px": "13.125rem",
+        "206px": "12.875rem",
         "157px": "9.8125rem",
         "140px": "8.75rem",
         "122px": "7.625rem",
