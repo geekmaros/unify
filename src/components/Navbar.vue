@@ -2,7 +2,7 @@
   <nav
     class="p-4 lg:px-140px lg:py-15px flex items-center justify-between border-b-2 md:border-none"
   >
-      <img src="../assets/logo.svg" alt="Company Logo" />
+    <img src="../assets/logo.svg" alt="Company Logo" />
     <div class="links hidden md:flex">
       <router-link to="/">Home</router-link>
       <router-link to="about" class="ml-35px">Features</router-link>
@@ -58,18 +58,17 @@ import BtnVue from "./Btn.vue";
 </script>
 
 <style scoped>
-
-nav a.router-link-exact-active{
-    position: relative;
+nav a.router-link-exact-active {
+  position: relative;
 }
 nav a.router-link-exact-active::before {
-   content:"";
-   position:absolute;
-   top: -2px;
-   background:black;
-   width:8px;
-   height:8px;
-   border-radius:100%;
-   right: -4px;
+  content: "";
+  position: absolute;
+  top: -2px;
+  background: black;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  right: -4px;
 }
 </style>
