@@ -5,7 +5,7 @@
                 <p class="text-unify-primary mt-8 md:mt-157px md:ml-70px tracking-0.01">Privacy policy</p>
             </router-link>
 
-            <router-link to="/">
+            <router-link to="terms&conditions">
                 <p class="text-unify-dark-100 mt-4 md:mt-8 md:ml-70px tracking-0.01">Terms & conditions</p>
             </router-link>
       </aside>
