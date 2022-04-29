@@ -14,6 +14,9 @@ module.exports = {
         "unify-purple-300": "#5F1DA0",
         "unify-purple-400": "#1D0633",
       },
+      flexBasis: {
+        "279px": "17.4375rem",
+      },
       fontFamily: {
         sans: ["Jost", "sans-serif"],
       },
@@ -32,7 +35,11 @@ module.exports = {
       maxWidth: {
         "293px": "18.3rem",
       },
+      minWidth: {
+        "279px": "17.4375rem",
+      },
       spacing:{
+        "279px": "17.4375rem",
         "140px": "8.75rem",
         "70px": "4.4rem",
         "210px": "13.125rem",
