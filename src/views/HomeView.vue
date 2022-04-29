@@ -4,7 +4,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
 
 <template>
   <main>
-    <h1 class="bg-red-400">Welcome to tailwindcss</h1>
+    <h1 class="font-sans text-lg font-medium leading-140 text-78px">Welcome to tailwindcss</h1>
     <TheWelcome />
   </main>
 </template>
