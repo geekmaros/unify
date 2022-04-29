@@ -5,6 +5,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
 <template>
   <main>
     <h1 class="font-sans text-lg font-medium leading-140 text-78px">Welcome to tailwindcss</h1>
+    <router-link to="about">About Page</router-link>
     <TheWelcome />
   </main>
 </template>
