@@ -5,7 +5,7 @@
 
         <section class="accordion mt-102px">
             <div class="question pb-6 border-b border-unify-light-stroke flex justify-between items-center mx-206px max-w-[46.75rem]">
-                <h3>Is there a web application for Unify?</h3>
+                <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">Is there a web application for Unify?</h3>
                 <i class="fa-solid fa-angle-up"></i>
             </div>
         </section>
