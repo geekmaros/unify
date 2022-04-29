@@ -1,11 +1,17 @@
 <template>
-  <section class="privacy flex pt-70px">
-      <aside class="min-w-279px">
-          <h2 class="text-unify-primary text">aaaaa</h2>
+  <section class="privacy flex">
+      <aside class="min-w-279px border-r border-r-unify-beige border-dashed">
+          <router-link to="/">
+                <p class="text-unify-primary mt-157px ml-70px tracking-0.01">Privacy policy</p>
+            </router-link>
+
+            <router-link to="/">
+                <p class="text-unify-dark-100 mt-8 ml-70px tracking-0.01">Terms & conditions</p>
+            </router-link>
       </aside>
       <main class="pl-122px pr-70px">
             <h1
-            class="text-unify-dark-300 text-32px font-medium tracking-0.01 "
+            class="text-unify-dark-300 mt-70px text-32px font-medium tracking-0.01 "
             >
                 Privacy policy
             </h1>
@@ -38,5 +44,4 @@
 
 
 <style>
- 
 </style>
