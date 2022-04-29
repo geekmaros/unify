@@ -31,6 +31,7 @@ module.exports = {
       lineHeight: {
         "140": "140%",
         "150": "150%",
+        "160": "160%",
       },
       maxWidth: {
         "293px": "18.3rem",
@@ -41,10 +42,12 @@ module.exports = {
       spacing:{
         "279px": "17.4375rem",
         "140px": "8.75rem",
+        "122px": "7.625rem",
         "70px": "4.4rem",
         "210px": "13.125rem",
         "15px": "0.938rem",
-        "35px": "2.188rem"
+        "35px": "2.188rem",
+        "30px": "1.875rem"
       }
     },
   },
