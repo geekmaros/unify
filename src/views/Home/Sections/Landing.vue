@@ -1,8 +1,8 @@
 <template>
-  <main class="pl-140px pt-93px">
-    <div>
+  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px  pl-3 lg:text-left">
+    <div class="landing-container mt-[120px] lg:mt-0 ">
       <h2
-        class="text-40px font-semibold max-w-400px leading-56 text-unify-primary"
+        class="text-[32px] max-w-[316px] leading-[44.8px] text-center mx-auto font-semibold sm:text-[40px] sm:max-w-[500px] lg:text-400px lg:max-w-400px  sm:leading-56 text-unify-primary lg:text-left lg:mx-0"
       >
         Digitalized education for the future at no extra cost
         <span
@@ -10,26 +10,27 @@
         ></span>
       </h2>
       <p
-        class="w-385px text-lg leading-[1.733rem] text-unify-dark-200 font-normal mt-7"
+        class="max-w-[343px] text-center text-[16px] leading-[24.64px] text-unify-dark-200 mx-auto font-normal mt-7 sm:max-w-[400px] sm:text-[18px] lg:text-left lg:mx-0 lg:mx-0"
       >
         Imagine being able to extend your Institutions reach beyond walls, make
         admission processes easy, manage student data, organize classes remotely
         and much more, all at no extra cost.
       </p>
-      <div class="flex items-center mt-35px">
+      <div class="flex justify-center md:justify-start items-center mt-35px">
         <BtnVue message="Request Demo" class="shadow-btn" />
-        <span class="ml-11">Learn more</span>
+        <span class="ml-11 underline">Learn more</span>
       </div>
     </div>
-    <div class="bg-unify-landing relative">
+    <div class="bg-unify-landing relative svg-container">
       <svg
         width="164"
         height="51"
         viewBox="0 0 164 51"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute left-[400px] bottom-[-40px]"
+        class="absolute left-[150px] md:left-[300px] lg:left-[350px] xl:left-[400px] bottom-[-40px] "
       >
+      <!-- class="absolute md:left-[200px] lg:left-[330px] xl:left-[450px] top-2" -->
         <rect
           x="4.49414"
           y="4.30762"
@@ -86,7 +87,7 @@
         viewBox="0 0 165 52"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute left-[500px] top-2"
+        class="absolute  left-[160px] sm:left-[400px] md:left-[450px] lg:left-[330px] xl:left-[450px] top-2"
       >
         <rect
           x="4.39648"
@@ -302,49 +303,7 @@
         viewBox="0 0 45 45"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute w-7 left-[37.5rem] top-[5.625rem]"
-      >
-        <rect
-          opacity="0.6"
-          x="20.0918"
-          width="4.4648"
-          height="44.648"
-          fill="#D9D1C7"
-        />
-        <rect
-          opacity="0.6"
-          y="24.5564"
-          width="4.4648"
-          height="44.648"
-          transform="rotate(-90 0 24.5564)"
-          fill="#D9D1C7"
-        />
-        <rect
-          opacity="0.6"
-          x="4.7793"
-          y="8.34082"
-          width="4.4648"
-          height="44.648"
-          transform="rotate(-45.7345 4.7793 8.34082)"
-          fill="#D9D1C7"
-        />
-        <rect
-          opacity="0.6"
-          x="36.4824"
-          y="4.73535"
-          width="4.4648"
-          height="44.648"
-          transform="rotate(42.2479 36.4824 4.73535)"
-          fill="#D9D1C7"
-        />
-      </svg>
-      <svg
-        width="45"
-        height="45"
-        viewBox="0 0 45 45"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute left-[46rem] w-7 bottom-[-1.2rem]"
+        class="absolute w-7 lg:left-[30rem] xl:left-[35rem] top-[5.625rem]"
       >
         <rect
           opacity="0.6"
@@ -392,6 +351,30 @@ import BtnVue from "../../../components/Btn.vue";
 <style scoped>
 main {
   display: grid;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.svg-container {
+    grid-area: 1/1;
+}
+
+/* @media (min-width: 640px) {
+    
+    } */
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+  }
+  .svg-container{
+      grid-area: auto;
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1526px) {
 }
 </style>
