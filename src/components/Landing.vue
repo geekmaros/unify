@@ -345,7 +345,7 @@
 </template>
 
 <script setup>
-import BtnVue from "../../../components/Btn.vue";
+import BtnVue from './Btn.vue';
 </script>
 
 <style scoped>

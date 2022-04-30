@@ -30,7 +30,7 @@
         Unify is for Everyone
       </h3>
     </div>
-    <div class="grid px-35px lg:px-140px lg:grid-cols-2 pt-70px gap-7 ">
+    <div class="grid px-14 sm:px-24 md:px-16 lg:px-140px lg:grid-cols-2 pt-70px gap-7 ">
       <EveryoneCardVue
         v-for="cardContent in cardContents"
         :key="cardContent.id"
@@ -44,7 +44,7 @@
 
 <script setup>
 import { ref } from "vue";
-import EveryoneCardVue from "../../../components/EveryoneCard.vue";
+import EveryoneCardVue from "./EveryoneCard.vue";
 
 const cardContents = ref([
   {
