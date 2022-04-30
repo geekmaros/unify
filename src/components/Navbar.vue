@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="p-4 lg:px-140px lg:py-15px flex items-center justify-between border-b-2 md:border-none"
+    class="p-4 lg:px-140px lg:py-15px md:px-70px flex items-center justify-between border-b-2 md:border-none"
   >
     <img src="../assets/logo.svg" alt="Company Logo" />
     <div class="links hidden md:flex">

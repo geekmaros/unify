@@ -2,6 +2,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        "btn": "#A999B9 5px 5px"
+      },
       colors: {
         "unify-primary": "#1B1B22",
         "unify-beige": "#F1EBE3",
@@ -15,6 +18,8 @@ module.exports = {
         "unify-purple-200": "#BC9CDB",
         "unify-purple-300": "#5F1DA0",
         "unify-purple-400": "#1D0633",
+        "unify-btn": "#A999B9",
+        "unify-landing": "#E9F4FF"
       },
       flexBasis: {
         "279px": "17.4375rem",
@@ -26,6 +31,8 @@ module.exports = {
         "32px": "2rem",
         "40px": "2.5rem",
         "78px": "4.5rem",
+        "20px": "1.25rem",
+        "25px": "1.563rem"
       },
       letterSpacing: {
         "0.01": "0.01em",
@@ -33,10 +40,13 @@ module.exports = {
       lineHeight: {
         "140": "140%",
         "150": "150%",
+        "56": "3.5rem"
         "160": "160%",
       },
       maxWidth: {
         "293px": "18.3rem",
+        "400px": "25rem",
+        "385px": "24.063rem"
       },
       minWidth: {
         "279px": "17.4375rem",
@@ -54,6 +64,10 @@ module.exports = {
         "35px": "2.188rem",
         "30px": "1.875rem",
         "15px": "0.938rem",
+        "35px": "2.188rem",
+        "93px": "5.813rem",
+        "400px": "25rem",
+        "385px": "24.063rem"
         "12.5px": "0.78125rem",
       }
     },

@@ -1,10 +1,14 @@
 <template>
-  <main>
-    <h1 class="font-sans text-lg font-medium leading-140 text-78px">Welcome to tailwindcss</h1>
-    <router-link to="about">About Page</router-link>
-    <router-link to="privacy_policy">Privacy Policy</router-link>
-    <router-link to="terms&conditions">Terms</router-link>
-  </main>
+  <LandingVue />
+  <VideoVue />
+  <EveryoneVue />
 </template>
 <script setup>
+// import LandingVue from './Home/Sections/Landing.vue';
+// import VideoVue from './Home/Sections/Video.vue';
+// import EveryoneVue from "./Home/Sections/Everyone.vue"
+
+import LandingVue from '../components/Landing.vue';
+import VideoVue from '../components/Video.vue';
+import EveryoneVue from '../components/Everyone.vue';
 </script>
