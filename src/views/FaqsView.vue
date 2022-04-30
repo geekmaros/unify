@@ -17,11 +17,11 @@
       <div
         class="accordion-item pb-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Is there a web application for Unify?
           </h3>
-          <i class="fa-solid fa-chevron-up"></i>
+          <i class="fa-solid fa-chevron-up text-unify-dark-300"></i>
         </div>
         <p
           class="answer text-unify-dark-300 mt-2.5 text-left md:leading-160 tracking-0.01"
@@ -39,60 +39,60 @@
       <div
         class="accordion-item py-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Is Unify free?
           </h3>
-          <i class="fa-solid fa-angle-up"></i>
+          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
         </div>
       </div>
 
       <div
         class="accordion-item py-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Are In-person classes available?
           </h3>
-          <i class="fa-solid fa-angle-up"></i>
+          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
         </div>
       </div>
 
       <div
         class="accordion-item py-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             What is your refund policy?
           </h3>
-          <i class="fa-solid fa-angle-up"></i>
+          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
         </div>
       </div>
 
       <div
         class="accordion-item py-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             How does billing work?
           </h3>
-          <i class="fa-solid fa-angle-up"></i>
+          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
         </div>
       </div>
 
       <div
         class="accordion-item py-6 border-b border-unify-light-stroke mx-7 sm:mx-20 lg:mx-206px max-w-[46.75rem]"
       >
-        <div class="question flex justify-between items-center">
+        <div class="question flex justify-between items-center cursor-pointer">
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             What do the different payment packages mean?
           </h3>
-          <i class="fa-solid fa-angle-up"></i>
+          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
         </div>
       </div>
     </section>
 
-    <p class="text-unify-gray-200 leading-160 tracking-0.01 mt-78px">
+    <p class="text-unify-gray-200 leading-160 tracking-0.01 mt-78px mx-2">
       Can’t find the answers you’re looking for?
       <span class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
         Contact our support team</span
