@@ -9,6 +9,8 @@ module.exports = {
         "unify-dark-200": "#383841",
         "unify-dark-300": "#2F2D37",
         "unify-gray-100": "#878787",
+        "unify-gray-200": "#545454",
+        "unify-light-stroke": "#EAEAEA",
         "unify-purple-100": "#E7DFED",
         "unify-purple-200": "#BC9CDB",
         "unify-purple-300": "#5F1DA0",
@@ -42,13 +44,17 @@ module.exports = {
       spacing:{
         "279px": "17.4375rem",
         "210px": "13.125rem",
+        "206px": "12.875rem",
         "157px": "9.8125rem",
         "140px": "8.75rem",
         "122px": "7.625rem",
+        "102px": "6.375rem",
+        "78px": "4.875rem",
         "70px": "4.4rem",
         "35px": "2.188rem",
         "30px": "1.875rem",
-        "15px": "0.938rem"
+        "15px": "0.938rem",
+        "12.5px": "0.78125rem",
       }
     },
   },
