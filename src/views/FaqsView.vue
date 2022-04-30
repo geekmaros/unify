@@ -21,7 +21,9 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Is there a web application for Unify?
           </h3>
-          <i class="fa-solid fa-chevron-up text-unify-dark-300"></i>
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 8.5L8 1.5L15 8.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
         <p
           class="answer text-unify-dark-300 mt-2.5 text-left md:leading-160 tracking-0.01"
@@ -43,7 +45,10 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Is Unify free?
           </h3>
-          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
+            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1.5L8 8.5L1 1.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
         </div>
       </div>
 
@@ -54,7 +59,9 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             Are In-person classes available?
           </h3>
-          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1.5L8 8.5L1 1.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
       </div>
 
@@ -65,7 +72,9 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             What is your refund policy?
           </h3>
-          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1.5L8 8.5L1 1.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
       </div>
 
@@ -76,7 +85,9 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             How does billing work?
           </h3>
-          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1.5L8 8.5L1 1.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
       </div>
 
@@ -87,7 +98,9 @@
           <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
             What do the different payment packages mean?
           </h3>
-          <i class="fa-solid fa-chevron-down text-unify-dark-300"></i>
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 1.5L8 8.5L1 1.5" stroke="#2F2D37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
       </div>
     </section>
