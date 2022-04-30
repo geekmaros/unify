@@ -26,6 +26,8 @@ module.exports = {
         "32px": "2rem",
         "40px": "2.5rem",
         "78px": "4.5rem",
+        "20px": "1.25rem",
+        "25px": "1.563rem"
       },
       letterSpacing: {
         "0.01": "0.01em",
