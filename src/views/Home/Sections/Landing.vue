@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px  pl-3 lg:text-left">
+  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px  pl-3 lg:text-left ">
     <div class="landing-container mt-[120px] lg:mt-0 ">
       <h2
         class="text-[32px] max-w-[316px] leading-[44.8px] text-center mx-auto font-semibold sm:text-[40px] sm:max-w-[500px] lg:text-400px lg:max-w-400px  sm:leading-56 text-unify-primary lg:text-left lg:mx-0"
@@ -16,7 +16,7 @@
         admission processes easy, manage student data, organize classes remotely
         and much more, all at no extra cost.
       </p>
-      <div class="flex justify-center md:justify-start items-center mt-35px">
+      <div class="flex justify-center lg:justify-start items-center mt-35px">
         <BtnVue message="Request Demo" class="shadow-btn" />
         <span class="ml-11 underline">Learn more</span>
       </div>
@@ -340,7 +340,7 @@
         />
       </svg>
     </div>
-    <router-link to="about">About Page</router-link>
+    <router-link to="about" class="w-[100px]">About Page</router-link>
   </main>
 </template>
 
@@ -351,7 +351,7 @@ import BtnVue from "../../../components/Btn.vue";
 <style scoped>
 main {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1.5fr 2fr;
 }
 
 .svg-container {
@@ -365,9 +365,13 @@ main {
 
 }
 @media (min-width: 1024px) {
+
   main {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    /* height: 80vh; */
   }
   .svg-container{
       grid-area: auto;
