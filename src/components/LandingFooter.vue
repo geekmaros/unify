@@ -74,7 +74,7 @@
 
     <img
       class="md:absolute mx-auto mt-5 right-0 md:-mt-52 lg:-mt-80 lg:mr-16 md:w lg:w-auto w-8/12 md:w-6/12"
-      :src="image"
+      src="../assets/footerhero.png"
       alt=""
     />
 
