@@ -1,7 +1,4 @@
 <template>
-  <div class="bg-white font-serif z-0">
-    
-
     <section class="accordion mt-20 md:mt-102px">
       <div
         v-for="(question, index) in questions"
@@ -12,7 +9,7 @@
           class="question flex justify-between items-center cursor-pointer"
           @click="openAccord(index)"
         >
-          <h3 class="text-unify-dark-300 font-medium leading-160 tracking-0.01">
+          <h3 class="text-jost text-unify-dark-300 font-medium leading-160 tracking-0.01">
             {{ question.title }}
           </h3>
           <svg
@@ -49,7 +46,6 @@
           </svg>
         </div>
         <p
-          v-show="activeAccordion.includes(index)"
           :class="{ collapsed: activeAccordion.includes(index) }"
           class="answer transition ease-in duration-1000 text-unify-dark-300 mt-2.5 text-left md:leading-160 tracking-0.01"
         >
@@ -58,71 +54,6 @@
       </div>
     </section>
 
-    <!-- <section
-      class="faq-content w-10/12 mx-auto pt-20 pb-20 px-0 md:px-2 lg:pl-32 lg:pr-32"
-    >
-      <div
-        v-for="(question, index) in questions"
-        :key="`question-${index}`"
-        class="question-wrapper rounded-lg border border-jadekgrey700 mb-6 pt-8 pb-8 pl-10 pr-10"
-      >
-        <div class="top cursor-pointer" @click="openAccord(index)">
-          <div class="flex justify-between w-full">
-            <h1
-              :class="{
-                'text-jadekgreen200 font-semibold':
-                  activeAccordion.includes(index),
-              }"
-              class="text-xl font-normal"
-            >
-              {{ question.title }}
-            </h1>
-            <button @click="openAccord(index)">
-              <svg
-                v-if="activeAccordion.includes(index)"
-                @click="openAccord(index)"
-                width="13"
-                height="4"
-                viewBox="0 0 13 4"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M11.75 0.4375H1.25C0.757812 0.4375 0.375 0.847656 0.375 1.3125V2.1875C0.375 2.67969 0.757812 3.0625 1.25 3.0625H11.75C12.2148 3.0625 12.625 2.67969 12.625 2.1875V1.3125C12.625 0.847656 12.2148 0.4375 11.75 0.4375Z"
-                  fill="#5EB100"
-                />
-              </svg>
-
-              <svg
-                v-else
-                width="13"
-                height="13"
-                @click="openAccord(index)"
-                viewBox="0 0 13 13"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M11.75 5.4375H7.8125V1.5C7.8125 1.03516 7.40234 0.625 6.9375 0.625H6.0625C5.57031 0.625 5.1875 1.03516 5.1875 1.5V5.4375H1.25C0.757812 5.4375 0.375 5.84766 0.375 6.3125V7.1875C0.375 7.67969 0.757812 8.0625 1.25 8.0625H5.1875V12C5.1875 12.4922 5.57031 12.875 6.0625 12.875H6.9375C7.40234 12.875 7.8125 12.4922 7.8125 12V8.0625H11.75C12.2148 8.0625 12.625 7.67969 12.625 7.1875V6.3125C12.625 5.84766 12.2148 5.4375 11.75 5.4375Z"
-                  fill="#212529"
-                />
-              </svg>
-            </button>
-          </div>
-
-          <div
-            v-show="activeAccordion.includes(index)"
-            :class="{ collapsed: activeAccordion.includes(index) }"
-            class="answer transition ease-in duration-700 text-lg text-jadekgrey400 leading-loose mt-3"
-          >
-            <p>
-              {{ question.answer }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-  </div>
 </template>
 
 <script>
@@ -181,11 +112,11 @@ export default {
 
 <style scoped>
 .answer {
-  /* height: 90px; */
-  transition: height 0.4s ease-in-out;
+  display: none;
+  transition: all 0.4s ease-in-out;
 }
 .answer.collapsed {
-  height: auto;
-  transition: height 0.4s ease-in-out;
+  display: block;
+  transition: all 0.4s ease-in-out;
 }
 </style>
