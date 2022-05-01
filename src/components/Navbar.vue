@@ -5,7 +5,7 @@
     <img src="../assets/logo.svg" alt="Company Logo" />
     <div class="links hidden md:flex">
       <router-link to="/">Home</router-link>
-      <router-link to="about" class="ml-35px">Features</router-link>
+      <router-link to="features" class="ml-35px">Features</router-link>
       <span class="flex items-center ml-35px">
         <span>Products</span>
         <svg
@@ -35,6 +35,7 @@
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       class="md:hidden"
+      @click="openNav"
     >
       <path
         d="M21 7H3.00002"
@@ -54,7 +55,11 @@
   </nav>
 </template>
 <script setup>
+import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
+
+
+
 </script>
 
 <style scoped>
@@ -70,5 +75,18 @@ nav a.router-link-exact-active::before {
   height: 8px;
   border-radius: 100%;
   right: -4px;
+}
+
+.over{
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
 }
 </style>
