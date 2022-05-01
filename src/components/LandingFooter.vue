@@ -78,7 +78,7 @@
       alt=""
     />
 
-    <div class="footer-nav mt-20 space-y-5 md:mt-32 lg:pt-321px flex flex-col md:flex-row justify-between">
+    <div class="footer-nav mt-20 space-y-5 md:space-y-0 md:mt-32 lg:pt-321px flex flex-col md:flex-row justify-between">
       <div class="logo-section">
         <a href="#"
           ><svg
