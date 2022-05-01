@@ -74,11 +74,13 @@
 
     <img
       class="md:absolute mx-auto mt-5 right-0 md:-mt-52 lg:-mt-80 lg:mr-16 md:w lg:w-auto w-8/12 md:w-6/12"
-      src="../assets/landing/laptop%20and%20phone.png"
+      :src="getLaptopImage"
       alt=""
     />
 
-    <div class="footer-nav mt-20 space-y-5 md:mt-32 lg:pt-321px flex flex-col md:flex-row justify-between">
+    <div
+      class="footer-nav mt-20 space-y-5 md:space-y-0 md:mt-32 lg:pt-321px flex flex-col md:flex-row justify-between"
+    >
       <div class="logo-section">
         <a href="#"
           ><svg
@@ -100,7 +102,9 @@
         </a>
         <p class="text-base mt-8 text-white mt-[28px]">Enabling the future</p>
 
-        <p class="text-base mt-8 text-white mt-10 md:mt-104px">Join our Community</p>
+        <p class="text-base mt-8 text-white mt-10 md:mt-104px">
+          Join our Community
+        </p>
         <div
           class="input-wrapper mt-30px max-w-388px flex justify-between space-x-2 items-center rounded-lg pl-4 py-2 pr-2 border border-unify-input-box"
         >
@@ -219,6 +223,15 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "LandingFooter",
+  computed: {
+    getLaptopImage() {
+      const lp = new URL(
+        "../assets/landing/laptop%20and%20phone.png",
+        import.meta.url
+      );
+      return lp;
+    },
+  },
 };
 </script>
 
