@@ -36,7 +36,7 @@ const props = defineProps({
 });
 
 const img = computed(() => {
-  return new URL(props.imgPath, import.meta.url).href;
+  return new URL(props.imgPath, import.meta.url);
 });
 </script>
 
