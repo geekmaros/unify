@@ -1,8 +1,8 @@
-  export const ImageList = async () => {
+export const ImageList = async () => {
   return [
     {
-      // img: (await import("../assets/landing/footerhero.png")).default,
-      img: new URL("../assets/landing/footerhero.png", import.meta.url)
+      img: "@/assets/landing/footerhero.png",
+      // img: new URL("../assets/landing/footerhero.png", import.meta.url)
     },
   ];
 };
