@@ -168,7 +168,7 @@
 
           <router-link
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            to="/faq"
+            to="/faqs"
             >FAQs</router-link
           >
 
@@ -220,16 +220,13 @@
 </template>
 
 <script>
+import Laptop from "../assets/landing/laptop and phone.png";
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "LandingFooter",
   computed: {
     getLaptopImage() {
-      const lp = new URL(
-        "../assets/landing/laptop%20and%20phone.png",
-        import.meta.url
-      );
-      return lp;
+      return Laptop;
     },
   },
 };
