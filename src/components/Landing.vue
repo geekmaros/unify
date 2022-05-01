@@ -1,8 +1,8 @@
 <template>
-  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px  pl-3 lg:text-left ">
-    <div class="landing-container mt-[120px] lg:mt-0 ">
+  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px pl-3 lg:text-left">
+    <div class="landing-container mt-[120px] lg:mt-0">
       <h2
-        class="text-[32px] max-w-[316px] leading-[44.8px] text-center mx-auto font-semibold sm:text-[40px] sm:max-w-[500px] lg:text-400px lg:max-w-400px  sm:leading-56 text-unify-primary lg:text-left lg:mx-0"
+        class="text-[32px] max-w-[316px] leading-[44.8px] text-center mx-auto font-semibold sm:text-[40px] sm:max-w-[500px] lg:text-400px lg:max-w-400px sm:leading-56 text-unify-primary lg:text-left lg:mx-0"
       >
         Digitalized education for the future at no extra cost
         <span
@@ -28,9 +28,9 @@
         viewBox="0 0 164 51"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute left-[150px] md:left-[300px] lg:left-[350px] xl:left-[400px] bottom-[-40px] "
+        class="absolute left-[150px] md:left-[300px] lg:left-[350px] xl:left-[400px] bottom-[-40px]"
       >
-      <!-- class="absolute md:left-[200px] lg:left-[330px] xl:left-[450px] top-2" -->
+        <!-- class="absolute md:left-[200px] lg:left-[330px] xl:left-[450px] top-2" -->
         <rect
           x="4.49414"
           y="4.30762"
@@ -87,7 +87,7 @@
         viewBox="0 0 165 52"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute  left-[160px] sm:left-[400px] md:left-[450px] lg:left-[330px] xl:left-[450px] top-2"
+        class="absolute left-[160px] sm:left-[400px] md:left-[450px] lg:left-[330px] xl:left-[450px] top-2"
       >
         <rect
           x="4.39648"
@@ -340,12 +340,11 @@
         />
       </svg>
     </div>
-    <router-link to="about" class="w-[100px]">About Page</router-link>
   </main>
 </template>
 
 <script setup>
-import BtnVue from './Btn.vue';
+import BtnVue from "./Btn.vue";
 </script>
 
 <style scoped>
@@ -355,17 +354,15 @@ main {
 }
 
 .svg-container {
-    grid-area: 1/1;
+  grid-area: 1/1;
 }
 
 /* @media (min-width: 640px) {
-    
+
     } */
 @media (min-width: 768px) {
-
 }
 @media (min-width: 1024px) {
-
   main {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
@@ -373,8 +370,8 @@ main {
     gap: 10px;
     /* height: 80vh; */
   }
-  .svg-container{
-      grid-area: auto;
+  .svg-container {
+    grid-area: auto;
   }
 }
 @media (min-width: 1280px) {
