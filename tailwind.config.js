@@ -18,6 +18,7 @@ module.exports = {
         "unify-purple-200": "#BC9CDB",
         "unify-purple-300": "#5F1DA0",
         "unify-purple-400": "#1D0633",
+        "unify-purple-500": "#452763",
         "unify-btn": "#A999B9",
         "unify-landing": "#E9F4FF"
       },

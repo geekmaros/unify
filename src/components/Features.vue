@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-unify-beige py-70px mt-70px">
+  <main class="bg-unify-beige pt-70px pb-24 mt-70px">
     <div class="text-center">
       <div class="flex items-center justify-center">
         <svg

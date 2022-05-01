@@ -72,6 +72,20 @@ const features = ref([
         imgPath: "../assets/landing/features/newsletter.png",
         left: true
     },
+    {
+        id: 4,
+        title: "Timely Updates Through Newsletter",
+        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
+        imgPath: "../assets/landing/features/newsletter.png",
+        left: false
+    },
+    {
+        id: 4,
+        title: "Timely Updates Through Newsletter",
+        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
+        imgPath: "../assets/landing/features/newsletter.png",
+        left: true
+    },
     
 ])
 </script>
