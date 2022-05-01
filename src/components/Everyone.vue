@@ -1,7 +1,7 @@
 <template>
   <main class="mt-11">
     <div class="text-center">
-        <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center">
         <svg
           width="40"
           height="4"
@@ -12,9 +12,9 @@
         >
           <rect y="0.5" width="40" height="3" fill="#F1EBE3" />
         </svg>
-      <h2 class="text-unify-purple-300 font-medium text-20px leading-7">
-        Who is Unify for
-      </h2>
+        <h2 class="text-unify-purple-300 font-medium text-20px leading-7">
+          Who is Unify for
+        </h2>
         <svg
           width="40"
           height="4"
@@ -25,12 +25,14 @@
         >
           <rect y="0.5" width="40" height="3" fill="#F1EBE3" />
         </svg>
-        </div>
+      </div>
       <h3 class="text-unify-primary font-medium text-25px leading-10">
         Unify is for Everyone
       </h3>
     </div>
-    <div class="grid px-14 sm:px-24 md:px-16 lg:px-140px lg:grid-cols-2 pt-70px gap-7 ">
+    <div
+      class="grid px-14 sm:px-24 md:px-16 lg:px-140px lg:grid-cols-2 pt-70px gap-7"
+    >
       <EveryoneCardVue
         v-for="cardContent in cardContents"
         :key="cardContent.id"

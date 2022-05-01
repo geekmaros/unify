@@ -2,12 +2,12 @@
   <section
     class="faq sm:mx-10 lg:mx-140px text-center sm:border-x-2 border-unify-beige border-dashed"
   >
-    <div class=" max-w-[16.375rem] mx-auto">
-        <h2
-            class="text-xl text-unify-purple-300 leading-140 tracking-0.01 font-medium mt-70px relative before:content-[''] before:block before:w-10 before:h-1 before:bg-unify-beige before:absolute before:left-0 before:top-12.5px after:content-[''] after:block after:w-10 after:h-1 after:bg-unify-beige after:absolute after:right-0 after:top-12.5px"
-        >
-            Have Questions?
-        </h2>
+    <div class="max-w-[16.375rem] mx-auto">
+      <h2
+        class="text-xl text-unify-purple-300 leading-140 tracking-0.01 font-medium mt-70px relative before:content-[''] before:block before:w-10 before:h-1 before:bg-unify-beige before:absolute before:left-0 before:top-12.5px after:content-[''] after:block after:w-10 after:h-1 after:bg-unify-beige after:absolute after:right-0 after:top-12.5px"
+      >
+        Have Questions?
+      </h2>
     </div>
     <h1 class="text-32px text-unify-dark-300 font-medium tracking-0.01 mt-3">
       FAQs
@@ -25,13 +25,10 @@
 </template>
 
 <script>
-
-import AccordionVue from '../components/Accordion.vue';
+import AccordionVue from "../components/Accordion.vue";
 export default {
   components: {
-    AccordionVue
-  }
-}
-
-
+    AccordionVue,
+  },
+};
 </script>
