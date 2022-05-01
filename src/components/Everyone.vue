@@ -52,28 +52,31 @@ const cardContents = ref([
     title: "Unify for Admin",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "src/assets/landing/Adins.png",
+    imgPath: "../assets/landing/Adins.png",
   },
   {
     id: 2,
     title: "Unify for Lecturers",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "src/assets/landing/lecturers.png",
+    imgPath: "../assets/landing/lecturers.png",
+    // imgPath: function(){
+    //   return new URL("../assets/landing/lecturers.png", import.meta.url)
+    // }
   },
   {
     id: 3,
     title: "Unify for Students",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "src/assets/landing/students.png",
+    imgPath: "../assets/landing/students.png",
   },
   {
     id: 4,
     title: "Unify for Parents",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "src/assets/landing/parents.png",
+    imgPath: "../assets/landing/parents.png",
   },
 ]);
 </script>
