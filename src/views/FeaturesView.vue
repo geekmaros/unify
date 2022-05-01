@@ -1,6 +1,6 @@
 <template>
-<main class="mt-11">
-     <div class="text-center">
+  <main class="mt-11">
+    <div class="text-center">
       <div class="flex items-center justify-center">
         <svg
           width="40"
@@ -30,48 +30,31 @@
         Features
       </h3>
     </div>
-    <div class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center">
+    <div
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center"
+    >
       <!-- item ends here -->
       <div v-for="feature in features" :key="feature.id">
-          <FeaturesCardVue  :title="feature.title" :description="feature.description" :left="feature.left" :imgPath="feature.imgPath" class=""/>
+        <FeaturesCardVue
+          :title="feature.title"
+          :description="feature.description"
+          :left="feature.left"
+          :imgPath="feature.imgPath"
+          class=""
+        />
       </div>
     </div>
-</main>
+  </main>
 </template>
 
 <script setup>
-import { ref } from "@vue/reactivity";
+import { ref, onMounted } from "vue";
+import { FeatureList } from "../composables/useGetFeature";
 import FeaturesCardVue from "../components/FeaturesCard.vue";
 
-const features = ref([
-    {
-        id: 1,
-        title: "Robust school management system",
-        description: "All users are able to effectively manage their activities from dashboards specially tailored to their needs.",
-        imgPath: "../assets/landing/features/robust.png",
-        left: false
-    },
-    {
-        id: 2,
-        title: "Student Id and debit card integration",
-        description: "A wallet system is created for all users of the platform toward performing various financial transactions such as paying school fees, buying materials,staff salaries etc. This allows for proper financial management and tracking for students, staff, and the institution at large.",
-        imgPath: "../assets/landing/features/card.png",
-        left: true
-    },
-    {
-        id: 3,
-        title: "Unify student cards",
-        description: "Debit cards linked to their wallets are issued to all users of the platform. These cards will be acceptable anywhere in Nigeria to make online payment, In-store Payments, ATM Withdrawals.",
-        imgPath: "../assets/landing/features/student-card.png",
-        left: false
-    },
-    {
-        id: 4,
-        title: "Timely Updates Through Newsletter",
-        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
-        imgPath: "../assets/landing/features/newsletter.png",
-        left: true
-    },
-    
-])
+const features = ref();
+
+onMounted(async () => {
+  features.value = await FeatureList();
+});
 </script>
