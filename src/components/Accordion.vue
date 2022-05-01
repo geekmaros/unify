@@ -47,7 +47,7 @@
         </div>
         <p
           :class="{ collapsed: activeAccordion.includes(index) }"
-          class="answer transition ease-in duration-1000 text-unify-dark-300 mt-2.5 text-left md:leading-160 tracking-0.01"
+          class="answer transition ease-in text-unify-dark-300 mt-2.5 text-left md:leading-160 tracking-0.01"
         >
           {{ question.answer }}
         </p>
