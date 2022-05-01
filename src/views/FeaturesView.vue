@@ -56,5 +56,7 @@ const features = ref();
 
 onMounted(async () => {
   features.value = await FeatureList();
+
+  console.log(features);
 });
 </script>
