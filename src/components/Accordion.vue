@@ -69,27 +69,27 @@ export default {
         },
         {
           title: "Is Unify free?",
-          answer: "Yes, You can buy as much farm as your money can go",
+          answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, tellus volutpat id adipiscing felis lobortis hac vitae dui. Vitae pellentesque tincidunt ornare elit ut ante vel pulvinar mauris. Nisi, fringilla ac ut vulputate. Sagittis dignissim ac euismod arcu nullam. In elementum aenean imperdiet ut risus, ut. Purus commodo scelerisque et quis montes. Leo massa, elit ut ornare eget viverra tortor eget quisque. faucibus augu",
         },
         {
           title: "Are In-person classes available?",
           answer:
-            "You can recieve payment with a bank card or via net banking (if you’re in Nigeria). We will credit your account automatically at the end of every investment cycle.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, tellus volutpat id adipiscing felis lobortis hac vitae dui. Vitae pellentesque tincidunt ornare elit ut ante vel pulvinar mauris. Nisi, fringilla ac ut vulputate. Sagittis dignissim ac euismod arcu nullam. In elementum aenean imperdiet ut risus, ut. Purus commodo scelerisque et quis montes. Leo massa, elit ut ornare eget viverra tortor eget quisque. faucibus augu",
         },
         {
           title: "What is your refund policy?",
           answer:
-            "You can recieve payment with a bank card or via net banking (if you’re in Nigeria). We will credit your account automatically at the end of every investment cycle.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, tellus volutpat id adipiscing felis lobortis hac vitae dui. Vitae pellentesque tincidunt ornare elit ut ante vel pulvinar mauris. Nisi, fringilla ac ut vulputate. Sagittis dignissim ac euismod arcu nullam. In elementum aenean imperdiet ut risus, ut. Purus commodo scelerisque et quis montes. Leo massa, elit ut ornare eget viverra tortor eget quisque. faucibus augu",
         },
         {
           title: "How does billing work?",
           answer:
-            "You can recieve payment with a bank card or via net banking (if you’re in Nigeria). We will credit your account automatically at the end of every investment cycle.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, tellus volutpat id adipiscing felis lobortis hac vitae dui. Vitae pellentesque tincidunt ornare elit ut ante vel pulvinar mauris. Nisi, fringilla ac ut vulputate. Sagittis dignissim ac euismod arcu nullam. In elementum aenean imperdiet ut risus, ut. Purus commodo scelerisque et quis montes. Leo massa, elit ut ornare eget viverra tortor eget quisque. faucibus augu",
         },
         {
           title: "What do the different payment packages mean?",
           answer:
-            "You can recieve payment with a bank card or via net banking (if you’re in Nigeria). We will credit your account automatically at the end of every investment cycle.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, tellus volutpat id adipiscing felis lobortis hac vitae dui. Vitae pellentesque tincidunt ornare elit ut ante vel pulvinar mauris. Nisi, fringilla ac ut vulputate. Sagittis dignissim ac euismod arcu nullam. In elementum aenean imperdiet ut risus, ut. Purus commodo scelerisque et quis montes. Leo massa, elit ut ornare eget viverra tortor eget quisque. faucibus augu",
         }
       ],
     };
