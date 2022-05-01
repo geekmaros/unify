@@ -104,7 +104,6 @@ export default {
       } else {
         this.activeAccordion.splice(currentIndex, 1, index);
       }
-      console.log(this.activeAccordion);
     },
   },
 };
