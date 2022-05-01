@@ -85,7 +85,7 @@ const features = ref([
     title: "Robust school management system",
     description:
       "All users are able to effectively manage their activities from dashboards specially tailored to their needs.",
-    imgPath: "../assets/landing/features/robust.png",
+    imgPath: "../assets/robust.png",
     left: false,
   },
   {
@@ -93,7 +93,7 @@ const features = ref([
     title: "Student Id and debit card integration",
     description:
       "A wallet system is created for all users of the platform toward performing various financial transactions such as paying school fees, buying materials,staff salaries etc. This allows for proper financial management and tracking for students, staff, and the institution at large.",
-    imgPath: "../assets/landing/features/card.png",
+    imgPath: "../assets/card.png",
     left: true,
   },
   {
@@ -101,7 +101,7 @@ const features = ref([
     title: "Unify student cards",
     description:
       "Debit cards linked to their wallets are issued to all users of the platform. These cards will be acceptable anywhere in Nigeria to make online payment, In-store Payments, ATM Withdrawals.",
-    imgPath: "../assets/landing/features/student-card.png",
+    imgPath: "../assets/student-card.png",
     left: false,
   },
   {
@@ -109,7 +109,7 @@ const features = ref([
     title: "Timely Updates Through Newsletter",
     description:
       "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
-    imgPath: "../assets/landing/features/newsletter.png",
+    imgPath: "../assets/newsletter.png",
     left: true,
   },
 ]);
