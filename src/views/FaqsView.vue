@@ -112,4 +112,18 @@
       >
     </p>
   </section>
+
+  <AccordionVue />
 </template>
+
+<script>
+
+import AccordionVue from '../components/Accordion.vue';
+export default {
+  components: {
+    AccordionVue
+  }
+}
+
+
+</script>
