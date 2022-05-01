@@ -15,7 +15,7 @@
         </p>
       </div>
       <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
-        <img :src="imgPath" alt="fdfd" class="w-full h-full object-fit" />
+        <img :src="img" alt="fdfd" class="w-full h-full object-fit" />
       </div>
       <!-- w-[200px] h-[184px] -->
     </div>
@@ -23,11 +23,18 @@
 </template>
 
 <script setup>
-defineProps({
+import { computed } from "@vue/runtime-core";
+
+const props = defineProps({
   title: String,
   content: String,
   imgPath: String,
 });
+
+
+const img = computed(() =>{
+  return new URL(props.imgPath, import.meta.url)
+})
 </script>
 
 <style scoped>
