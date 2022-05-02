@@ -33,54 +33,124 @@
     <div
       class="grid px-14 sm:px-24 md:px-16 lg:px-140px lg:grid-cols-2 pt-70px gap-7"
     >
-      <EveryoneCardVue
-        v-for="cardContent in cardContents"
-        :key="cardContent.id"
-        :title="cardContent.title"
-        :content="cardContent.content"
-        :imgPath="cardContent.imgPath"
-      />
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+        <h2
+          class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-admin mb-4 bg-white"
+        >
+          Unify for Admin
+        </h2>
+
+        <div
+          class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center"
+        >
+          <div class="w-full h-full flex items-center justify-center">
+            <p class="lg:max-w-293px font-normal text-base leading-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+              semper eget tincidunt porta. Cras et eget odio ornare nulla nisl.
+              Morbi leo neque porta sollicitudin nulla auctor semper
+              pellentesque tincidunt. Cursus tellus neque, pretium augue. In
+              nibh aliquam.
+            </p>
+          </div>
+          <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
+            <img
+              src="../assets/landing/Adins.png"
+              alt="fdfd"
+              class="w-full h-full object-fit"
+            />
+          </div>
+          <!-- w-[200px] h-[184px] -->
+        </div>
+      </div>
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+        <h2
+          class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-lect mb-4 bg-white"
+        >
+          Unify for Lecturers
+        </h2>
+
+        <div
+          class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center"
+        >
+          <div class="w-full h-full flex items-center justify-center">
+            <p class="lg:max-w-293px font-normal text-base leading-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+              semper eget tincidunt porta. Cras et eget odio ornare nulla nisl.
+              Morbi leo neque porta sollicitudin nulla auctor semper
+              pellentesque tincidunt. Cursus tellus neque, pretium augue. In
+              nibh aliquam.
+            </p>
+          </div>
+          <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
+            <img
+              src="../assets/landing/lecturers.png"
+              alt="fdfd"
+              class="w-full h-full object-fit"
+            />
+          </div>
+          <!-- w-[200px] h-[184px] -->
+        </div>
+      </div>
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+        <h2
+          class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-student mb-4 bg-white"
+        >
+          Unify for Students
+        </h2>
+
+        <div
+          class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center"
+        >
+          <div class="w-full h-full flex items-center justify-center">
+            <p class="lg:max-w-293px font-normal text-base leading-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+              semper eget tincidunt porta. Cras et eget odio ornare nulla nisl.
+              Morbi leo neque porta sollicitudin nulla auctor semper
+              pellentesque tincidunt. Cursus tellus neque, pretium augue. In
+              nibh aliquam.
+            </p>
+          </div>
+          <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
+            <img
+              src="../assets/landing/students.png"
+              alt="fdfd"
+              class="w-full h-full object-fit"
+            />
+          </div>
+          <!-- w-[200px] h-[184px] -->
+        </div>
+      </div>
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+        <h2
+          class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-parents mb-4 bg-white"
+        >
+          Unify for Parents
+        </h2>
+
+        <div
+          class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center"
+        >
+          <div class="w-full h-full flex items-center justify-center">
+            <p class="lg:max-w-293px font-normal text-base leading-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+              semper eget tincidunt porta. Cras et eget odio ornare nulla nisl.
+              Morbi leo neque porta sollicitudin nulla auctor semper
+              pellentesque tincidunt. Cursus tellus neque, pretium augue. In
+              nibh aliquam.
+            </p>
+          </div>
+          <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
+            <img
+              src="../assets/landing/parents.png"
+              alt="fdfd"
+              class="w-full h-full object-fit"
+            />
+          </div>
+          <!-- w-[200px] h-[184px] -->
+        </div>
+      </div>
     </div>
   </main>
 </template>
-
-<script setup>
-import { ref } from "vue";
-import EveryoneCardVue from "./EveryoneCard.vue";
-
-const cardContents = ref([
-  {
-    id: 1,
-    title: "Unify for Admin",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "../assets/landing/Adins.png",
-  },
-  {
-    id: 2,
-    title: "Unify for Lecturers",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "../assets/landing/lecturers.png",
-    // imgPath: function(){
-    //   return new URL("../assets/landing/lecturers.png", import.meta.url)
-    // }
-  },
-  {
-    id: 3,
-    title: "Unify for Students",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "../assets/landing/students.png",
-  },
-  {
-    id: 4,
-    title: "Unify for Parents",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
-    imgPath: "../assets/landing/parents.png",
-  },
-]);
-</script>
 
 <style></style>

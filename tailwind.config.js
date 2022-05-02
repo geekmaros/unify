@@ -3,7 +3,11 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "btn": "#A999B9 5px 5px"
+        "btn": "#A999B9 5px 5px",
+        "admin": "#5F5FCC 5px 5px",
+        "lect": "#95BD9E 5px 5px",
+        "student": "#EDA3E6 5px 5px",
+        "parents": "#DBCA74 5px 5px",
       },
       colors: {
         "unify-primary": "#1B1B22",
