@@ -7,10 +7,10 @@
     </h2>
 
     <div
-      class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center "
+      class="flex flex-col md:flex-row space-x-2 lg:flex-row justify-between md:items-center"
     >
-      <div class="w-full h-full flex items-center  justify-center">
-        <p class="lg:max-w-293px  font-normal text-base leading-6">
+      <div class="w-full h-full flex items-center justify-center">
+        <p class="lg:max-w-293px font-normal text-base leading-6">
           {{ content }}
         </p>
       </div>
@@ -31,11 +31,9 @@ const props = defineProps({
   imgPath: String,
 });
 
-
-const img = computed(() =>{
-  return new URL(props.imgPath, import.meta.url).href
-  // return props.imgPath
-})
+const img = computed(() => {
+  return new URL(props.imgPath, import.meta.url).href;
+});
 </script>
 
 <style scoped>
