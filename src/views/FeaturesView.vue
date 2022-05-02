@@ -1,6 +1,6 @@
 <template>
-<main class="mt-11">
-     <div class="text-center">
+  <main class="mt-11">
+    <div class="text-center">
       <div class="flex items-center justify-center">
         <svg
           width="40"
@@ -30,17 +30,26 @@
         Features
       </h3>
     </div>
-    <div class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center">
+    <div
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center"
+    >
       <!-- item ends here -->
       <div v-for="feature in features" :key="feature.id">
-          <FeaturesCardVue  :title="feature.title" :description="feature.description" :left="feature.left" :imgPath="feature.imgPath" class=""/>
+        <FeaturesCardVue
+          :title="feature.title"
+          :description="feature.description"
+          :left="feature.left"
+          :imgPath="feature.imgPath"
+          class=""
+        />
       </div>
     </div>
-</main>
+  </main>
 </template>
 
 <script setup>
-import { ref } from "@vue/reactivity";
+import { ref, onMounted } from "vue";
+import { FeatureList } from "../composables/useGetFeature";
 import FeaturesCardVue from "../components/FeaturesCard.vue";
 
 const features = ref([
@@ -88,4 +97,13 @@ const features = ref([
     },
     
 ])
+
+const features = ref();
+
+onMounted(async () => {
+  features.value = await FeatureList();
+
+  console.log(features);
+});
 </script>
+

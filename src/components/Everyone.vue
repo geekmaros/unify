@@ -153,4 +153,42 @@
   </main>
 </template>
 
+<script setup>
+import { ref } from "vue";
+import EveryoneCardVue from "./EveryoneCard.vue";
+
+const cardContents = ref([
+  {
+    id: 1,
+    title: "Unify for Admin",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
+    imgPath: "../assets/Adins.png",
+  },
+  {
+    id: 2,
+    title: "Unify for Lecturers",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
+    imgPath: "../assets/lecturers.png",
+    // imgPath: function(){
+    //   return new URL("../assets/landing/lecturers.png", import.meta.url)
+    // }
+  },
+  {
+    id: 3,
+    title: "Unify for Students",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
+    imgPath: "../assets/students.png",
+  },
+  {
+    id: 4,
+    title: "Unify for Parents",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, semper eget tincidunt porta. Cras et eget odio ornare nulla nisl. Morbi leo neque porta sollicitudin nulla auctor semper pellentesque tincidunt. Cursus tellus neque, pretium augue. In nibh aliquam. ",
+    imgPath: "../assets/parents.png",
+  },
+]);
+</script>
 <style></style>
