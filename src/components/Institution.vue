@@ -6,13 +6,14 @@
       </h2>
     </div>
     <div
-      class=" grid grid-cols-3 md:px-[100px] lg:px-[188px] md:flex items-center justify-between mt-[60px] mb-[75px]"
+      class=" grid grid-cols-3 px-[100px] lg:px-[188px] md:flex items-center md:justify-between mt-[60px] mb-[75px]"
     >
       <img src="../assets/landing/covenant.png" alt="" />
       <img src="../assets/landing/harvard.png" alt="" />
       <img src="../assets/landing/unilag.png" alt="" />
       <img src="../assets/landing/covenant.png" alt="" />
       <img src="../assets/landing/harvard.png" alt="" />
+      <img src="../assets/landing/unilag.png" alt="" />
     </div>
     <Splide class="pl-30px pr-30px md:pr-0 md:pl-70px lg:pl-140px pb-140px" :hasTrack="false" :options="options">
       <SplideTrack>
