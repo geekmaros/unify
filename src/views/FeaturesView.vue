@@ -31,7 +31,7 @@
       </h3>
     </div>
     <div
-      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center  "
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center "
     >
       <!-- first item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
@@ -51,7 +51,7 @@
             Robust school management system
           </h1>
           <p
-            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100 "
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
             All users are able to effectively manage their activities from
             dashboards specially tailored to their needs.
@@ -89,7 +89,7 @@
       </div>
 
       <!-- third item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center ">
         <div
           class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
         >
@@ -211,7 +211,6 @@
         </div>
       </div>
 
-      
       <!-- seventh item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
@@ -241,12 +240,11 @@
         </div>
       </div>
 
-
       <!-- eighth item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
           class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
-        > 
+        >
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
@@ -266,14 +264,17 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Income and Expense reports can be generated to ensure all payments and receivables are transparent. ​​Summary reports of the entire monetary transactions that are done for your institutes can be viewed at a go using this feature which makes several tasks easier and saves you valuable time and money.
+            Income and Expense reports can be generated to ensure all payments
+            and receivables are transparent. ​​Summary reports of the entire
+            monetary transactions that are done for your institutes can be
+            viewed at a go using this feature which makes several tasks easier
+            and saves you valuable time and money.
           </p>
         </div>
       </div>
 
-
       <!-- nineth item -->
-       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
           class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
         >
@@ -291,16 +292,48 @@
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
-          Best Financing App To Save Your Money
+            Best Financing App To Save Your Money
           </h1>
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            For every successful payment, the student is issued a receipt and every receipt has a unique transaction ID that can be verified and cleared at the examination hall .This will completely eliminate forgery or duplication of receipts by students.
+            For every successful payment, the student is issued a receipt and
+            every receipt has a unique transaction ID that can be verified and
+            cleared at the examination hall .This will completely eliminate
+            forgery or duplication of receipts by students.
           </p>
         </div>
       </div>
+
       <!-- tenth/last item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/audit.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div>
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Audit Report Of All User Activities
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Audit logs of users activities can be spooled off the platform for easy reference
+          </p>
+        </div>
+      </div>
+
       <!-- item ends here -->
     </div>
   </main>

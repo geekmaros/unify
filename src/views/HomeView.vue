@@ -5,6 +5,7 @@
   <FeaturesVue />
   <HowItWorksVue />
   <Institution />
+  <OtherProductsVue />
   
 </template>
 <script setup>
@@ -18,4 +19,5 @@ import EveryoneVue from '../components/Everyone.vue';
 import FeaturesVue  from '../components/Features.vue';
 import HowItWorksVue from '../components/HowItWorks.vue';
 import Institution from "../components/Institution.vue"
+import OtherProductsVue from '../components/OtherProducts.vue';
 </script>
