@@ -1,6 +1,6 @@
 <template>
-<main class="mt-11">
-     <div class="text-center">
+  <main class="my-11">
+    <div class="text-center">
       <div class="flex items-center justify-center">
         <svg
           width="40"
@@ -30,62 +30,288 @@
         Features
       </h3>
     </div>
-    <div class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center">
-      <!-- item ends here -->
-      <div v-for="feature in features" :key="feature.id">
-          <FeaturesCardVue  :title="feature.title" :description="feature.description" :left="feature.left" :imgPath="feature.imgPath" class=""/>
+    <div
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center  "
+    >
+      <!-- first item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img src="../assets/landing/features/robust.png" alt="" class="" />
+          </div>
+        </div>
+        <div class="md:ml-auto">
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Robust school management system
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100 "
+          >
+            All users are able to effectively manage their activities from
+            dashboards specially tailored to their needs.
+          </p>
+        </div>
       </div>
+
+      <!-- second item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img src="../assets/landing/features/card.png" alt="" class="" />
+          </div>
+        </div>
+        <div>
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Student Id and debit card integration
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            A wallet system is created for all users of the platform toward
+            performing various financial transactions such as paying school
+            fees, buying materials,staff salaries etc. This allows for proper
+            financial management and tracking for students, staff, and the
+            institution at large.
+          </p>
+        </div>
+      </div>
+
+      <!-- third item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/student-card.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div class="md:ml-auto">
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Unify student cards
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Debit cards linked to their wallets are issued to all users of the
+            platform. These cards will be acceptable anywhere in Nigeria to make
+            online payment, In-store Payments, ATM Withdrawals.
+          </p>
+        </div>
+      </div>
+
+      <!-- fourth/ last item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/newsletter.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div>
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Timely Updates Through Newsletter
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Administrative staff can tailor engagement with faculty,
+            departments,students or parents through newsletters or
+            notifications. This allows for prompt and mass disbursement of
+            information.
+          </p>
+        </div>
+      </div>
+
+      <!-- fifth item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img src="../assets/landing/features/modules.png" alt="" class="" />
+          </div>
+        </div>
+        <div class="md:ml-auto">
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Independent Modules And Interface
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Users are sectioned into holistic modules; each user can access a
+            tailored dashboard comprising different features and functionality.
+            The interfaces are categorized into Students, Parents, Lecturers,
+            Administration, Stakeholders, Bursary, Prospective Students, and
+            Alumni.
+          </p>
+        </div>
+      </div>
+
+      <!-- sixth item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/audio-video.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div>
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Audio And Video Conferencing Tool
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Unify has advanced e-learning automated features that connect the
+            students with lecturers beyond the walls of the classroom making it
+            a borderless learning platform for schools.
+          </p>
+        </div>
+      </div>
+
+      
+      <!-- seventh item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/registration.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div class="md:ml-auto">
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Registration Module For Prospective Students
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Unify Caters to Online Admission Applications and Tracking.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- eighth item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+        > 
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/income-expense.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div>
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+            Income And Expense Reports
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            Income and Expense reports can be generated to ensure all payments and receivables are transparent. ​​Summary reports of the entire monetary transactions that are done for your institutes can be viewed at a go using this feature which makes several tasks easier and saves you valuable time and money.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- nineth item -->
+       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+        <div
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+        >
+          <div
+            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+          >
+            <img
+              src="../assets/landing/features/save-finance.png"
+              alt=""
+              class=""
+            />
+          </div>
+        </div>
+        <div class="md:ml-auto">
+          <h1
+            class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
+          >
+          Best Financing App To Save Your Money
+          </h1>
+          <p
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
+          >
+            For every successful payment, the student is issued a receipt and every receipt has a unique transaction ID that can be verified and cleared at the examination hall .This will completely eliminate forgery or duplication of receipts by students.
+          </p>
+        </div>
+      </div>
+      <!-- tenth/last item -->
+      <!-- item ends here -->
     </div>
-</main>
+  </main>
 </template>
 
-<script setup>
-import { ref } from "@vue/reactivity";
-import FeaturesCardVue from "../components/FeaturesCard.vue";
+<script setup></script>
 
-const features = ref([
-    {
-        id: 1,
-        title: "Robust school management system",
-        description: "All users are able to effectively manage their activities from dashboards specially tailored to their needs.",
-        imgPath: "../assets/landing/features/robust.png",
-        left: false
-    },
-    {
-        id: 2,
-        title: "Student Id and debit card integration",
-        description: "A wallet system is created for all users of the platform toward performing various financial transactions such as paying school fees, buying materials,staff salaries etc. This allows for proper financial management and tracking for students, staff, and the institution at large.",
-        imgPath: "../assets/landing/features/card.png",
-        left: true
-    },
-    {
-        id: 3,
-        title: "Unify student cards",
-        description: "Debit cards linked to their wallets are issued to all users of the platform. These cards will be acceptable anywhere in Nigeria to make online payment, In-store Payments, ATM Withdrawals.",
-        imgPath: "../assets/landing/features/student-card.png",
-        left: false
-    },
-    {
-        id: 4,
-        title: "Timely Updates Through Newsletter",
-        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
-        imgPath: "../assets/landing/features/newsletter.png",
-        left: true
-    },
-    {
-        id: 4,
-        title: "Timely Updates Through Newsletter",
-        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
-        imgPath: "../assets/landing/features/newsletter.png",
-        left: false
-    },
-    {
-        id: 4,
-        title: "Timely Updates Through Newsletter",
-        description: "Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.",
-        imgPath: "../assets/landing/features/newsletter.png",
-        left: true
-    },
-    
-])
-</script>
+<style scoped>
+@media (min-width: 768px) {
+  .left {
+    grid-area: 1/2;
+  }
+}
+</style>
