@@ -6,7 +6,7 @@
     <div class="links hidden md:flex">
       <router-link to="/">Home</router-link>
       <router-link to="features" class="ml-35px">Features</router-link>
-      <span class="flex items-center ml-35px" @click="showProduct">
+      <span class="flex items-center ml-35px">
         <span>Products</span>
         <svg
           width="12"
@@ -53,10 +53,13 @@
       />
     </svg>
   </nav>
-  <div v-if="isProductOpen"></div>
 </template>
 <script setup>
+import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
+
+
+
 </script>
 
 <style scoped>
@@ -74,16 +77,16 @@ nav a.router-link-exact-active::before {
   right: -4px;
 }
 
-.over {
+.over{
   left: 50%;
   transform: translate(-50%);
 }
 
-.show {
+.show{
   display: block;
 }
 
-.hide {
+.hide{
   display: none;
 }
 </style>
