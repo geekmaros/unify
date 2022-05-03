@@ -225,14 +225,14 @@ export default {
 };
 </script>
 <script setup>
-import { ImageList } from "../composables/useGetImages";
-import { onMounted, ref } from "vue";
-// eslint-disable-next-line vue/multi-word-component-names
-const image = ref();
-onMounted(async () => {
-  const images = await ImageList();
-  image.value = images[0].img;
-});
+// // import { ImageList } from "../composables/useGetImages";
+// import { onMounted, ref } from "vue";
+// // eslint-disable-next-line vue/multi-word-component-names
+// const image = ref();
+// onMounted(async () => {
+//   const images = await ImageList();
+//   image.value = images[0].img;
+// });
 </script>
 
 <style scoped></style>
