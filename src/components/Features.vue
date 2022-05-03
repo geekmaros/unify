@@ -42,7 +42,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/robust.png" alt="" class="" />
+            <img src="../assets/robust.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -68,7 +68,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/card.png" alt="" class="" />
+            <img src="../assets/card.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -93,7 +93,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/student-card.png" alt="" class="" />
+            <img src="../assets/student-card.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -118,7 +118,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/newsletter.png" alt="" class="" />
+            <img src="../assets/newsletter.png" alt="" class="" />
           </div>
         </div>
         <div>

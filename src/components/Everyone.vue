@@ -54,7 +54,7 @@
           </div>
           <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
             <img
-              src="../assets/landing/Adins.png"
+              src="../assets/Adins.png"
               alt="fdfd"
               class="w-full h-full object-fit"
             />
@@ -83,7 +83,7 @@
           </div>
           <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
             <img
-              src="../assets/landing/lecturers.png"
+              src="../assets/lecturers.png"
               alt="fdfd"
               class="w-full h-full object-fit"
             />
@@ -112,7 +112,7 @@
           </div>
           <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
             <img
-              src="../assets/landing/students.png"
+              src="../assets/students.png"
               alt="fdfd"
               class="w-full h-full object-fit"
             />
@@ -141,7 +141,7 @@
           </div>
           <div class="overflow-hidden rounded-lg w-full h-full mt-5 md:mt-0">
             <img
-              src="../assets/landing/parents.png"
+              src="../assets/parents.png"
               alt="fdfd"
               class="w-full h-full object-fit"
             />
@@ -153,4 +153,6 @@
   </main>
 </template>
 
+<script setup>
+</script>
 <style></style>

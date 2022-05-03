@@ -1,5 +1,5 @@
 <template>
-  <main class="my-11">
+  <main class="mt-11 mb-93px">
     <div class="text-center">
       <div class="flex items-center justify-center">
         <svg
@@ -41,7 +41,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/robust.png" alt="" class="" />
+            <img src="../assets/robust.png" alt="" class="" />
           </div>
         </div>
         <div class="md:ml-auto">
@@ -67,7 +67,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/card.png" alt="" class="" />
+            <img src="../assets/card.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -97,7 +97,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/student-card.png"
+              src="../assets/student-card.png"
               alt=""
               class=""
             />
@@ -128,7 +128,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/newsletter.png"
+              src="../assets/newsletter.png"
               alt=""
               class=""
             />
@@ -159,7 +159,7 @@
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/landing/features/modules.png" alt="" class="" />
+            <img src="../assets/modules.png" alt="" class="" />
           </div>
         </div>
         <div class="md:ml-auto">
@@ -189,7 +189,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/audio-video.png"
+              src="../assets/audio-video.png"
               alt=""
               class=""
             />
@@ -220,7 +220,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/registration.png"
+              src="../assets/registration.png"
               alt=""
               class=""
             />
@@ -249,7 +249,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/income-expense.png"
+              src="../assets/income-expense.png"
               alt=""
               class=""
             />
@@ -282,7 +282,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/save-finance.png"
+              src="../assets/save-finance.png"
               alt=""
               class=""
             />
@@ -314,7 +314,7 @@
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img
-              src="../assets/landing/features/audit.png"
+              src="../assets/audit.png"
               alt=""
               class=""
             />
