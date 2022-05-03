@@ -63,7 +63,7 @@
       <!-- second item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left" 
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
         >
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
@@ -113,7 +113,7 @@
       <!-- fourth/ last item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left" 
+          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
         >
           <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
@@ -135,7 +135,7 @@
         </div>
       </div>
 
-      
+
       <!-- item ends here -->
       <!-- <div v-for="feature in features" :key="feature.id">
         <FeaturesCardVue
@@ -148,7 +148,7 @@
       </div> -->
     </div>
     <div class="text-center mt-30px">
-      <router-link to="features" class="flex items-center justify-center">
+      <router-link to="features" class="flex hover:font-medium items-center justify-center">
         <span>View more Features</span>
         <svg
           width="17"
@@ -185,9 +185,9 @@
 @media (min-width: 768px){
 .left{
     grid-area: 1/2;
-}    
+}
 }
 
 
 
-</style>  
+</style>

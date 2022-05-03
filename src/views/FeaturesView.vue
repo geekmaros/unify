@@ -38,7 +38,7 @@
         <div
           class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
         >
-          <div
+          <div class="flex flex-col justify-center items-center">
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
             <img src="../assets/robust.png" alt="" class="" />
