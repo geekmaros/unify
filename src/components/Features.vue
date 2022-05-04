@@ -1,6 +1,6 @@
 <template>
   <main class="bg-unify-beige pt-70px pb-24 mt-70px">
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-up">
       <div class="flex items-center justify-center">
         <svg
           width="40"
@@ -36,7 +36,7 @@
     >
     <!-- items start -->
       <!-- first item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -62,7 +62,7 @@
       </div>
 
       <!-- second item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -91,7 +91,7 @@
       </div>
 
       <!-- third item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -118,7 +118,7 @@
       </div>
 
       <!-- fourth/ last item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -157,7 +157,7 @@
         />
       </div> -->
     </div>
-    <div class="text-center mt-30px">
+    <div class="text-center mt-30px" data-aos="fade-up">
       <router-link to="features" class="flex hover:font-medium items-center justify-center">
         <span>View more Features</span>
         <svg

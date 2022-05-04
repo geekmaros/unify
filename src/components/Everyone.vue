@@ -33,7 +33,7 @@
     <div
       class="grid px-14 sm:px-24 md:px-16 lg:px-140px lg:grid-cols-2 pt-70px gap-7"
     >
-      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg" data-aos="fade-up">
         <h2
           class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-admin mb-4 bg-white"
         >
@@ -62,7 +62,7 @@
           <!-- w-[200px] h-[184px] -->
         </div>
       </div>
-      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg" data-aos="fade-up">
         <h2
           class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-lect mb-4 bg-white"
         >
@@ -91,7 +91,7 @@
           <!-- w-[200px] h-[184px] -->
         </div>
       </div>
-      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg" data-aos="fade-up">
         <h2
           class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-student mb-4 bg-white"
         >
@@ -120,7 +120,7 @@
           <!-- w-[200px] h-[184px] -->
         </div>
       </div>
-      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg">
+      <div class="bg-unify-purple-100 px-6 py-6 rounded-lg" data-aos="fade-up">
         <h2
           class="px-15px pt-15px pb-2 border-2 border-black inline-block rounded shadow-parents mb-4 bg-white"
         >

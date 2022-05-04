@@ -1,12 +1,12 @@
 <template>
   <main class="bg-unify-purple-100 pt-70px">
     <div class="items-center relative">
-      <h2 class="text-32px font-medium text-unify-primary text-center">
+      <h2 class="text-32px font-medium text-unify-primary text-center" data-aos="fade-up">
         Driving growth in top tertiary institutions
       </h2>
     </div>
     <div
-      class=" grid grid-cols-3 px-[100px] lg:px-[188px] md:flex items-center md:justify-between mt-[60px] mb-[75px]"
+      class=" grid grid-cols-3 px-[100px] lg:px-[188px] md:flex items-center md:justify-between mt-[60px] mb-[75px]" data-aos="fade-up"
     >
       <img src="../assets/landing/covenant.png" alt="" />
       <img src="../assets/landing/harvard.png" alt="" />
@@ -15,7 +15,7 @@
       <img src="../assets/landing/harvard.png" alt="" />
       <img src="../assets/landing/unilag.png" alt="" />
     </div>
-    <Splide class="pl-30px pr-30px md:pr-0 md:pl-70px lg:pl-140px pb-140px" :hasTrack="false" :options="options">
+    <Splide class="pl-30px pr-30px md:pr-0 md:pl-70px lg:pl-140px pb-140px" :hasTrack="false" :options="options" data-aos="fade-up">
       <SplideTrack>
         <SplideSlide
           class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
