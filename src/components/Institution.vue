@@ -107,8 +107,6 @@
         </button>
       </div>
     </Splide>
-
-    <button></button>
   </main>
 </template>
 
@@ -123,3 +121,4 @@ const options = {
   pagination: false,
 };
 </script>
+
