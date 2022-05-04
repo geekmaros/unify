@@ -1,5 +1,5 @@
 <template>
-  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px pl-3 lg:text-left">
+  <main class="lg:pl-140px pt-11 lg:pt-93px md:pl-70px pl-3 lg:text-left " data-aos="fade-up">
     <div class="landing-container mt-6 lg:mt-0">
       <h2
         class="text-[32px] max-w-[316px] leading-[44.8px] text-center mx-auto font-semibold sm:text-[40px] sm:max-w-[500px] lg:text-400px lg:max-w-400px sm:leading-56 text-unify-primary lg:text-left lg:mx-0"

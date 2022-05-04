@@ -1,11 +1,11 @@
 <template>
   <main class="pt-10 md:pt-70px pb-12 md:pb-[150px] px-10">
     <h1
-      class="text-center text-32px leading-[44.8px] font-medium text-unify-primary"
+      class="text-center text-32px leading-[44.8px] font-medium text-unify-primary" data-aos="fade-up"
     >
       Other products from Unify
     </h1>
-    <div class="px-0 md:px-70px lg:px-[200px] md:grid md:grid-cols-2 mt-70px">
+    <div class="px-0 md:px-70px lg:px-[200px] md:grid md:grid-cols-2 mt-70px" data-aos="fade-up">
       <div class="mb-30px md:mb-0">
         <img src="../assets/landing/logo.png" alt="" class="mb-35px" />
         <h3 class="font-medium text-[20px] mb-3">Certification by Unify</h3>

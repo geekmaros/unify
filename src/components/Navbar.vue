@@ -1,6 +1,6 @@
 <template>
   <nav
-    :class="showNav ? 'shadow-2xl h-64 md:pb-8' : 'h-16'"
+    :class="showNav ? 'shadow-2xl h-64 md:pb-8 ' : 'h-16'"
     class="p-4 lg:px-140px lg:py-15px md:px-70px transition-all ease-in-out duration-700 border-b-2 md:border-none overflow-hidden"
   >
     <div class="flex items-center justify-between">
@@ -40,7 +40,7 @@
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         class="md:hidden"
-        @click="openNav"
+        @click="showOpenNav"
       >
         <path
           d="M21 7H3.00002"
@@ -58,9 +58,7 @@
         />
       </svg>
     </div>
-    <div
-      class="transition-all ease-in-out duration-700 flex items-start pt-5"
-    >
+    <div class="transition-all ease-in-out duration-700 flex items-start pt-5">
       <div class="title font-medium text-lg w-1/2">Products by Unify</div>
       <div class="w-1/2">
         <div class="cert">
@@ -159,20 +157,168 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 /></svg
-              ></router-link>
+            ></router-link>
           </div>
         </div>
       </div>
     </div>
   </nav>
+
+  <div
+    :class="
+      openNav ? 'block transition-all ease-in-out duration-700' : 'hidden'
+    "
+    class="md:hidden w-3/4 p-11 bg-white border-2 border-t-0 z-20 static absolute over"
+  >
+    <nav>
+      <div class="">
+        <div class="links flex flex-col items-start justify-center">
+          <router-link to="/" class="mb-30px">Home</router-link>
+          <router-link to="features" class="mb-30px">Features</router-link>
+          <span class="flex items-center cursor-pointer mb-30px" @click="showMobilePro">
+            <span>Products</span>
+            <svg
+              width="12"
+              height="8"
+              viewBox="0 0 12 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="ml-2"
+            >
+              <path
+                d="M10.6663 1.66675L5.99967 6.33341L1.33301 1.66675"
+                stroke="#575765"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <div
+            class="transition-all ease-in-out duration-700 flex flex-col items-start pt-1"
+            :class="mobilePro? 'flex flex-col': 'hidden' "
+          >
+            <div class="title font-medium text-lg mb-6">Products by Unify</div>
+            <div class="">
+              <div class="cert">
+                <p class="flex items-center space-x-3">
+                  <svg
+                    width="54"
+                    height="22"
+                    viewBox="0 0 54 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      y="0.306152"
+                      width="53.7437"
+                      height="21.3878"
+                      fill="url(#pattern0)"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_522_1524"
+                          transform="translate(-0.00697269 -0.419034) scale(0.00175419 0.0042944)"
+                        />
+                      </pattern>
+                      <image id="image0_522_1524" width="580" height="430" />
+                    </defs>
+                  </svg>
+                  <span>Certification by Unify</span>
+                </p>
+                <div class="mt-3">
+                  <router-link to="" class="flex items-center text-sm inact">
+                    <span>Visit site</span>
+                    <svg
+                      width="17"
+                      height="15"
+                      viewBox="0 0 17 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ml-2"
+                    >
+                      <path
+                        d="M15.75 7.72559L0.75 7.72559"
+                        stroke="#1B1B22"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.7002 1.70124L15.7502 7.72524L9.7002 13.7502"
+                        stroke="#1B1B22"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></router-link>
+                </div>
+              </div>
+              <div class="cert mt-5">
+                <p class="flex items-center space-x-3">
+                  <span class="font-medium">forms</span>
+                  <span>Unify forms</span>
+                </p>
+                <div class="mt-3">
+                  <router-link to="" class="flex items-center text-sm inact">
+                    <span>Visit site</span>
+                    <svg
+                      width="17"
+                      height="15"
+                      viewBox="0 0 17 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ml-2"
+                    >
+                      <path
+                        d="M15.75 7.72559L0.75 7.72559"
+                        stroke="#1B1B22"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M9.7002 1.70124L15.7502 7.72524L9.7002 13.7502"
+                        stroke="#1B1B22"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></router-link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <router-link to="faqs" class="">FAQs</router-link>
+        </div>
+        <BtnVue message="Request Demo" class="mt-30px" />
+      </div>
+    </nav>
+  </div>
 </template>
 <script setup>
 import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
 const showNav = ref(false);
+const openNav = ref(false);
+const mobilePro = ref(false)
 const showProdNav = () => {
   showNav.value = !showNav.value;
 };
+const showOpenNav = () => {
+  openNav.value = !openNav.value;
+};
+
+const showMobilePro = () =>{
+  mobilePro.value = !mobilePro.value
+}
 </script>
 
 <style scoped>
