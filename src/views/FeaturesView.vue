@@ -34,14 +34,18 @@
       class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center "
     >
       <!-- first item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center ">
         <div
           class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
         >
-          <div class="flex flex-col justify-center items-center">
+          <div
             class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
           >
-            <img src="../assets/robust.png" alt="" class="" />
+            <img
+              src="../assets/robust.png"
+              alt=""
+              class=""
+            />
           </div>
         </div>
         <div class="md:ml-auto">
