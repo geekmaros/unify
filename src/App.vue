@@ -1,8 +1,9 @@
-
 <template>
-  <NavbarVue />
-  <RouterView />
-  <LandingFooterVue />
+  <section class="overflow-x-hidden">
+    <NavbarVue />
+    <RouterView />
+    <LandingFooterVue />
+  </section>
 </template>
 
 <script setup>

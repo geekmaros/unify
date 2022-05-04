@@ -5,7 +5,7 @@
     >
       Other products from Unify
     </h1>
-    <div class="px-0 md:px-70px lg:px-[200px] grids md:grid-cols-2 mt-70px">
+    <div class="px-0 md:px-70px lg:px-[200px] md:grid md:grid-cols-2 mt-70px">
       <div class="mb-30px md:mb-0">
         <img src="../assets/landing/logo.png" alt="" class="mb-35px" />
         <h3 class="font-medium text-[20px] mb-3">Certification by Unify</h3>
