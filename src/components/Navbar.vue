@@ -168,7 +168,7 @@
     :class="
       openNav ? 'block transition-all ease-in-out duration-700' : 'hidden'
     "
-    class="md:hidden w-3/4 p-11 bg-white border-2 border-t-0 z-20 static absolute over"
+    class="md:hidden w-full p-11 bg-white border-2 border-t-0 z-20 static absolute over"
   >
     <nav>
       <div class="">
