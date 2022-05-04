@@ -35,12 +35,13 @@
       class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center "
     >
     <!-- items start -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
+      <!-- first item -->
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
             <img src="../assets/robust.png" alt="" class="" />
           </div>
@@ -52,7 +53,7 @@
             Robust school management system
           </h1>
           <p
-            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:max-w-400px md:text-[20px] leading-7 text-unify-dark-100"
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
             All users are able to effectively manage their activities from
             dashboards specially tailored to their needs.
@@ -61,12 +62,12 @@
       </div>
 
       <!-- second item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
             <img src="../assets/card.png" alt="" class="" />
           </div>
@@ -80,20 +81,24 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            A wallet system is created for all users of the platform toward performing various financial transactions such as paying school fees, buying materials,staff salaries etc. This allows for proper financial management and tracking for students, staff, and the institution at large.
+            A wallet system is created for all users of the platform toward
+            performing various financial transactions such as paying school
+            fees, buying materials,staff salaries etc. This allows for proper
+            financial management and tracking for students, staff, and the
+            institution at large.
           </p>
         </div>
       </div>
 
       <!-- third item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img src="../assets/student-card.png" alt="" class="" />
+            <img src="../assets/unify-student-card.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -103,20 +108,22 @@
             Unify student cards
           </h1>
           <p
-            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:max-w-400px md:text-[20px] leading-7 text-unify-dark-100"
+            class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Debit cards linked to their wallets are issued to all users of the platform. These cards will be acceptable anywhere in Nigeria to make online payment, In-store Payments, ATM Withdrawals.
+            Debit cards linked to their wallets are issued to all users of the
+            platform. These cards will be acceptable anywhere in Nigeria to make
+            online payment, In-store Payments, ATM Withdrawals.
           </p>
         </div>
       </div>
 
       <!-- fourth/ last item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-2 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
             <img src="../assets/newsletter.png" alt="" class="" />
           </div>
@@ -130,7 +137,10 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Administrative staff can tailor engagement with faculty, departments,students or parents through newsletters or notifications. This allows for prompt and mass disbursement of information.
+           Administrative staff can tailor engagement with faculty,
+            departments,students or parents through newsletters or
+            notifications. This allows for prompt and mass disbursement of
+            information.
           </p>
         </div>
       </div>

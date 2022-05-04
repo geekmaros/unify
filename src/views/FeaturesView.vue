@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-11 mb-93px">
+  <main class="mt-11 mb-40">
     <div class="text-center">
       <div class="flex items-center justify-center">
         <svg
@@ -31,24 +31,20 @@
       </h3>
     </div>
     <div
-      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center "
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center"
     >
       <!-- first item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center ">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/robust.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/robust.png" alt="" class="" />
           </div>
         </div>
-        <div class="md:ml-auto">
+        <div>
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
@@ -66,10 +62,10 @@
       <!-- second item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
             <img src="../assets/card.png" alt="" class="" />
           </div>
@@ -93,21 +89,17 @@
       </div>
 
       <!-- third item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center ">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/student-card.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/unify-student-card.png" alt="" class="" />
           </div>
         </div>
-        <div class="md:ml-auto">
+        <div>
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
@@ -126,16 +118,12 @@
       <!-- fourth/ last item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/newsletter.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/newsletter.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -147,7 +135,7 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Administrative staff can tailor engagement with faculty,
+           Administrative staff can tailor engagement with faculty,
             departments,students or parents through newsletters or
             notifications. This allows for prompt and mass disbursement of
             information.
@@ -155,18 +143,19 @@
         </div>
       </div>
 
+
       <!-- fifth item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
             <img src="../assets/modules.png" alt="" class="" />
           </div>
         </div>
-        <div class="md:ml-auto">
+        <div>
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
@@ -175,7 +164,7 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Users are sectioned into holistic modules; each user can access a
+             Users are sectioned into holistic modules; each user can access a
             tailored dashboard comprising different features and functionality.
             The interfaces are categorized into Students, Parents, Lecturers,
             Administration, Stakeholders, Bursary, Prospective Students, and
@@ -187,16 +176,12 @@
       <!-- sixth item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/audio-video.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/audio-video.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -216,21 +201,18 @@
       </div>
 
       <!-- seventh item -->
+
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/registration.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/registration.png" alt="" class="" />
           </div>
         </div>
-        <div class="md:ml-auto">
+        <div>
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
@@ -247,16 +229,12 @@
       <!-- eighth item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/income-expense.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/income-expense.png" alt="" class="" />
           </div>
         </div>
         <div>
@@ -280,19 +258,15 @@
       <!-- nineth item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/save-finance.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/save-finance.png  " alt="" />
           </div>
         </div>
-        <div class="md:ml-auto">
+        <div>
           <h1
             class="text-unify-primary w-[312px] text-center md:text-left md:w-[340px] text-20px leading-7 font-medium mt-3 md:mt-0"
           >
@@ -312,16 +286,12 @@
       <!-- tenth/last item -->
       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
         <div
-          class="max-w-[347px] max-h-[347px] lg:max-w-[468px] lg:max-h-[468px] bg-[#ECE7DF] rounded-full overflow-hidden flex justify-center items-center left"
+          class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
           <div
-            class="py-3 px-3 bg-[#EBEBEB] inline-block rounded-[22.43px] mt-140px max-w-[256px] max-h-[256px] lg:max-w-[322px] lg:max-h-[322px]"
+            class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img
-              src="../assets/audit.png"
-              alt=""
-              class=""
-            />
+            <img src="../assets/audit.png" alt="" />
           </div>
         </div>
         <div>
@@ -333,7 +303,8 @@
           <p
             class="mt-35px text-[16px] w-[325px] text-center md:text-left md:w-300px lg:w-400px md:text-[20px] leading-7 text-unify-dark-100"
           >
-            Audit logs of users activities can be spooled off the platform for easy reference
+            Audit logs of users activities can be spooled off the platform for
+            easy reference
           </p>
         </div>
       </div>
