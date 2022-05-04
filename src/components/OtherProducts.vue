@@ -1,11 +1,11 @@
 <template>
-  <main class="pt-70px pb-[150px]">
+  <main class="pt-10 md:pt-70px pb-12 md:pb-[150px] px-10">
     <h1
       class="text-center text-32px leading-[44.8px] font-medium text-unify-primary"
     >
       Other products from Unify
     </h1>
-    <div class=" px-70px md:px-70px lg:px-[200px] grid md:grid-cols-2 mt-70px ">
+    <div class="px-0 md:px-70px lg:px-[200px] grids md:grid-cols-2 mt-70px">
       <div class="mb-30px md:mb-0">
         <img src="../assets/landing/logo.png" alt="" class="mb-35px" />
         <h3 class="font-medium text-[20px] mb-3">Certification by Unify</h3>
@@ -14,8 +14,8 @@
           elit. Varius proin pellentesque nibh id nunc, enim, vestibulum
           consectetur. Nisl posuere aliquam sodales lobortis nunc
         </p>
-        <div class=" mt-30px">
-          <router-link to="" class="flex items-center ">
+        <div class="mt-30px">
+          <router-link to="" class="flex items-center">
             <span>Visit site</span>
             <svg
               width="17"
@@ -43,13 +43,15 @@
         </div>
       </div>
       <div>
-        <img src="../assets/landing/logo.png" alt="" class="mb-35px"/>
+        <img src="../assets/landing/logo.png" alt="" class="mb-35px" />
         <h3 class="font-medium text-[20px] mb-3">Unify forms</h3>
         <p class="w-[311px]">
-          forms etc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius proin pellentesque nibh id nunc, enim, vestibulum consectetur. Nisl posuere aliquam sodales lobortis nunc
+          forms etc Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Varius proin pellentesque nibh id nunc, enim, vestibulum consectetur.
+          Nisl posuere aliquam sodales lobortis nunc
         </p>
-        <div class=" mt-30px">
-          <router-link to="" class="flex items-center ">
+        <div class="mt-30px">
+          <router-link to="" class="flex items-center">
             <span>Visit site</span>
             <svg
               width="17"
