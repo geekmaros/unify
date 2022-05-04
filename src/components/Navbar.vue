@@ -57,9 +57,6 @@
 <script setup>
 import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
-
-
-
 </script>
 
 <style scoped>

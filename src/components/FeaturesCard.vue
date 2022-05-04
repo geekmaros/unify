@@ -26,17 +26,11 @@
 </template>
 
 <script setup>
-import { computed } from "@vue/runtime-core";
-
-const props = defineProps({
+defineProps({
   imgPath: String,
   title: String,
   description: String,
   left: Boolean,
-});
-
-const img = computed(() => {
-  return new URL(props.imgPath, import.meta.url);
 });
 </script>
 
