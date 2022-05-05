@@ -8,6 +8,9 @@ module.exports = {
         "lect": "#95BD9E 5px 5px",
         "student": "#EDA3E6 5px 5px",
         "parents": "#DBCA74 5px 5px",
+        "test1": "#B4B4D0 8px 8px",
+        "test2": "#9FBCA6 8px 8px",
+        "test3": "#C0A0BD 8px 8px",
       },
       colors: {
         "unify-primary": "#1B1B22",

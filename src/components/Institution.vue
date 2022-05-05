@@ -1,12 +1,20 @@
 <template>
   <main class="bg-unify-purple-100 pt-70px">
-    <div class="items-center relative">
-      <h2 class="text-32px font-medium text-unify-primary text-center" data-aos="fade-up">
-        Driving growth in top tertiary institutions
+    <div class="">
+      <h2
+        class="text-32px font-medium text-unify-primary text-center"
+        data-aos="fade-up"
+      >
+        Driving <span class="over">growth</span> in top tertiary institutions
+        <!-- <span class="flex flex-col items-center mx-2">
+          <span>growth</span>
+          <span><img src="../assets/growth.svg" alt="" /></span
+        ></span> -->
       </h2>
     </div>
     <div
-      class=" grid grid-cols-3 px-[100px] lg:px-[188px] md:flex items-center md:justify-between mt-[60px] mb-[75px]" data-aos="fade-up"
+      class=" hidden px-70px lg:px-[188px] md:flex items-center md:justify-between mt-[60px] mb-[75px]"
+      data-aos="fade-up"
     >
       <img src="../assets/landing/covenant.png" alt="" />
       <img src="../assets/landing/harvard.png" alt="" />
@@ -15,10 +23,41 @@
       <img src="../assets/landing/harvard.png" alt="" />
       <img src="../assets/landing/unilag.png" alt="" />
     </div>
-    <Splide class="pl-30px pr-30px md:pr-0 md:pl-70px lg:pl-140px pb-140px" :hasTrack="false" :options="options" data-aos="fade-up">
+
+    <Splide class="flex items-center justify-center md:hidden" :hasTrack="false"
+      :options="options"
+      data-aos="fade-up">
       <SplideTrack>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/covenant.png" alt="" />
+        </SplideSlide>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/harvard.png" alt="" />
+        </SplideSlide>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/unilag.png" alt="" />
+        </SplideSlide>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/covenant.png" alt="" />
+        </SplideSlide>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/harvard.png" alt="" />
+        </SplideSlide>
+        <SplideSlide class="flex items-center justify-center">
+          <img src="../assets/landing/unilag.png" alt="" />
+        </SplideSlide>
+      </SplideTrack>
+    </Splide>
+
+    <Splide
+      class="pl-30px pr-30px md:pr-0 md:pl-70px lg:pl-140px pb-140px"
+      :hasTrack="false"
+      :options="options"
+      data-aos="fade-up"
+    >
+      <SplideTrack class="py-4">
         <SplideSlide
-          class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
+          class="border-2 bg-white border-black shadow-test1 rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
         >
           <h1 class="text-[20px] mb-[28px]">Awesome!</h1>
           <p class="max-w-[350px]">
@@ -33,7 +72,7 @@
           </div>
         </SplideSlide>
         <SplideSlide
-          class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
+          class="border-2 bg-white border-black shadow-test2 rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
         >
           <h1 class="text-[20px] mb-[28px]">Awesome!</h1>
           <p class="max-w-[350px]">
@@ -48,7 +87,7 @@
           </div>
         </SplideSlide>
         <SplideSlide
-          class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
+          class="border-2 bg-white border-black shadow-test3 rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
         >
           <h1 class="text-[20px] mb-[28px]">Awesome!</h1>
           <p class="max-w-[350px]">
@@ -63,7 +102,7 @@
           </div>
         </SplideSlide>
         <SplideSlide
-          class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
+          class="border-2 bg-white border-black shadow-test1 rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
         >
           <h1 class="text-[20px] mb-[28px]">Awesome!</h1>
           <p class="max-w-[350px]">
@@ -78,7 +117,7 @@
           </div>
         </SplideSlide>
         <SplideSlide
-          class="border-2 border-black shadow-parents rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
+          class="border-2 bg-white border-black shadow-test2 rounded max-w-[439px] pt-[32px] pb-[15px] px-30px flex flex-col mr-[40px]"
         >
           <h1 class="text-[20px] mb-[28px]">Awesome!</h1>
           <p class="max-w-[350px]">
@@ -122,3 +161,19 @@ const options = {
 };
 </script>
 
+<style scoped>
+
+
+.over {
+  display: inline-block;
+  position: relative;
+}
+.over:before {
+  content: url("../assets/growth.svg");  
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  left: -1px;
+  overflow: hidden;
+}
+</style>

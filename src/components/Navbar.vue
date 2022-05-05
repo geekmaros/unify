@@ -173,9 +173,12 @@
     <nav>
       <div class="">
         <div class="links flex flex-col items-start justify-center">
-          <router-link to="/" class="mb-30px">Home</router-link>
-          <router-link to="features" class="mb-30px">Features</router-link>
-          <span class="flex items-center cursor-pointer mb-30px" @click="showMobilePro">
+          <router-link to="/" class="mb-30px" @click="closeNavOnRoute">Home</router-link>
+          <router-link to="features" class="mb-30px" @click="closeNavOnRoute">Features</router-link>
+          <span
+            class="flex items-center cursor-pointer mb-30px"
+            @click="showMobilePro"
+          >
             <span>Products</span>
             <svg
               width="12"
@@ -196,7 +199,7 @@
           </span>
           <div
             class="transition-all ease-in-out duration-700 flex flex-col items-start pt-1"
-            :class="mobilePro? 'flex flex-col': 'hidden' "
+            :class="mobilePro ? 'flex flex-col' : 'hidden'"
           >
             <div class="title font-medium text-lg mb-6">Products by Unify</div>
             <div class="">
@@ -296,7 +299,7 @@
               </div>
             </div>
           </div>
-          <router-link to="faqs" class="">FAQs</router-link>
+          <router-link to="faqs" class="" @click="closeNavOnRoute">FAQs</router-link>
         </div>
         <BtnVue message="Request Demo" class="mt-30px" />
       </div>
@@ -308,7 +311,7 @@ import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
 const showNav = ref(false);
 const openNav = ref(false);
-const mobilePro = ref(false)
+const mobilePro = ref(false);
 const showProdNav = () => {
   showNav.value = !showNav.value;
 };
@@ -316,9 +319,13 @@ const showOpenNav = () => {
   openNav.value = !openNav.value;
 };
 
-const showMobilePro = () =>{
-  mobilePro.value = !mobilePro.value
-}
+const showMobilePro = () => {
+  mobilePro.value = !mobilePro.value;
+};
+
+const closeNavOnRoute = () => {
+  openNav.value = false;
+};
 </script>
 
 <style scoped>

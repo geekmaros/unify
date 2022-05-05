@@ -1,6 +1,6 @@
 <template>
   <section
-    class="faq sm:mx-10 lg:mx-140px text-center sm:border-x-2 border-unify-beige border-dashed pb-30px md:pb-157px"
+    class="faq sm:mx-10 lg:mx-140px text-center sm:border-x-2 border-unify-beige border-dashed pb-30px md:pb-157px" data-aos="fade-up"
   >
     <div class="max-w-[16.375rem] mx-auto">
       <h2
