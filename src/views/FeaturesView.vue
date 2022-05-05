@@ -1,7 +1,7 @@
 <template>
   <main class="mt-11 mb-40">
-    <div class="text-center">
-      <div class="flex items-center justify-center">
+    <div class="text-center" data-aos="fade-up">
+      <div class="flex items-center justify-center" >
         <svg
           width="40"
           height="4"
@@ -34,7 +34,7 @@
       class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center"
     >
       <!-- first item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -60,7 +60,7 @@
       </div>
 
       <!-- second item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -89,7 +89,7 @@
       </div>
 
       <!-- third item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -116,7 +116,7 @@
       </div>
 
       <!-- fourth/ last item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -145,7 +145,7 @@
 
 
       <!-- fifth item -->
-       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+       <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -174,7 +174,7 @@
       </div>
 
       <!-- sixth item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -202,7 +202,7 @@
 
       <!-- seventh item -->
 
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -227,7 +227,7 @@
       </div>
 
       <!-- eighth item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
@@ -256,7 +256,7 @@
       </div>
 
       <!-- nineth item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center"
         >
@@ -284,7 +284,7 @@
       </div>
 
       <!-- tenth/last item -->
-      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-11 mt-7 items-center" data-aos="fade-up">
         <div
           class="w-[347px] h-[347px] lg:w-[468px] lg:h-[468px] bg-[#ECE7DF] rounded-[50%] inline-block overflow-hidden flex items-center justify-center left"
         >
