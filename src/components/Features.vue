@@ -69,7 +69,7 @@
           <div
             class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img src="../assets/card.png" alt="" class="" />
+            <img src="../assets/new-student.png" alt="" class="" />
           </div>
         </div>
         <div>

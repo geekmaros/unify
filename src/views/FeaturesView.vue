@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-11 mb-40">
+  <main class="mt-11 mb-40 ">
     <div class="text-center" data-aos="fade-up">
       <div class="flex items-center justify-center" >
         <svg
@@ -67,7 +67,7 @@
           <div
             class="rounded-[22.43px] bg-[#EBEBEB] mt-36 py-3 px-3 w-[256px] md:w-[300px] lg:w-[322px] ]"
           >
-            <img src="../assets/card.png" alt="" class="" />
+            <img src="../assets/new-student.png" alt="" class="" />
           </div>
         </div>
         <div>
