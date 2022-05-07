@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="mt-11 lg:mt-0">
-          <img src="../assets/landing/How-it-works.png" alt="" />
+          <img src="../assets/unify-gif.gif" alt="">
         </div>
       </div>
     </div>
