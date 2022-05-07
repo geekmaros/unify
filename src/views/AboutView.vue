@@ -1,5 +1,5 @@
 <template>
-  <section class="about pt-8 px-8 md:pt-10 md:px-12 lg:pt-70px lg:px-210px pb-70px md:pb-93px">
+  <section class="about pt-8 px-8 md:pt-10 md:px-12 lg:pt-70px lg:px-210px pb-70px md:pb-206px">
     <h1
       class="text-3xl md:text-40px text-unify-primary font-medium md:leading-140 tracking-0.01"
     >

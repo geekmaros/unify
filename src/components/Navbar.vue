@@ -39,8 +39,9 @@
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="md:hidden"
+        class="md:hidden cursor-pointer"
         @click="showOpenNav"
+
       >
         <path
           d="M21 7H3.00002"
@@ -171,7 +172,7 @@
     :class="
       openNav ? 'block transition-all ease-in-out duration-700' : 'hidden'
     "
-    class="md:hidden w-full p-11 bg-white border-2 border-t-0 z-20 static absolute over"
+    class="md:hidden w-full p-11 bg-white border-2 border-t-0 z-20 absolute over"
   >
     <nav>
       <div class="">

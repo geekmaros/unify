@@ -32,7 +32,7 @@
     </div>
 
     <div
-      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center "
+      class="px-70px lg:px-140px pt-70px flex flex-col md:block items-center"
     >
     <!-- items start -->
       <!-- first item -->
