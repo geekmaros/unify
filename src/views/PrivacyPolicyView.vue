@@ -1,5 +1,5 @@
 <template>
-  <section class="privacy flex md:flex-row flex-col pb-70px md:pb-93px">
+  <section class="privacy flex md:flex-row flex-col pb-70px md:pb-206px">
     <aside
       class="text-center md:text-left my-12 md:mt-0 md:border-r border-unify-beige border-dashed order-2 min-w-279px"
     >
