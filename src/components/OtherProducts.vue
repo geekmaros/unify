@@ -10,9 +10,7 @@
         <img src="../assets/landing/logo.png" alt="" class="mb-35px" />
         <h3 class="font-medium text-[20px] mb-3">Certification by Unify</h3>
         <p class="w-[311px]">
-          Certifications by Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Varius proin pellentesque nibh id nunc, enim, vestibulum
-          consectetur. Nisl posuere aliquam sodales lobortis nunc
+          Certifications by Unify is an online learning platform that allows anyone to watch, listen and learn from our everyday STARS. The goal is to aid people with little or no experience learn from powerfully talented individuals using brilliant storytelling and in-depth learning methods.
         </p>
         <div class="mt-30px">
           <router-link to="" class="flex items-center">
@@ -43,13 +41,10 @@
         </div>
       </div>
       <div>
-        <!-- <img src="../assets/landing/logo.png" alt="" class="mb-35px" /> -->
-        <h1 class="text-40px font-semibold mb-35px">Forms</h1>
+        <img src="../assets/forms-logo.svg" class="w-44 mb-35px" alt="">
         <h3 class="font-medium text-[20px] mb-3">Unify forms</h3>
         <p class="w-[311px]">
-          forms etc Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Varius proin pellentesque nibh id nunc, enim, vestibulum consectetur.
-          Nisl posuere aliquam sodales lobortis nunc
+          A retail product that bridges the gap between K-12 schools that want to double their student intake and students looking for admission in the most stress free way...
         </p>
         <div class="mt-30px">
           <router-link to="" class="flex items-center">

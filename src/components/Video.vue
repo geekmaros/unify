@@ -5,8 +5,6 @@
       title="YouTube video player"
       frameborder="0"
       class="w-[343px] h-[221px] sm:w-[715px] sm:h-[339px] lg:w-[915px] lg:h-[439px] mx-auto absolute video"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
     ></iframe>
     <div class="h-1/2 bg-unify-beige"></div>
     <div class="h-1/2"></div>

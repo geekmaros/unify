@@ -1,5 +1,8 @@
 <template>
   <!-- :class="showNav ? 'shadow-2xl h-64 md:pb-8 ' : 'h-16'" -->
+  <div v-if="showModal">
+    <FormModalVue @close="toggleModal" class=" z-40"/>
+  </div>
   <nav
     class="p-4 lg:px-140px lg:py-15px md:px-70px transition-all ease-in-out duration-700 border-b-2 md:border-none overflow-hidden"
   >
@@ -104,7 +107,7 @@
           <span>Certification by Unify</span>
         </p>
         <div class="mt-3">
-          <router-link to="" class="flex items-center text-sm inact">
+          <span to="" class="flex items-center text-sm cursor-pointer">
             <span>Visit site</span>
             <svg
               width="17"
@@ -128,7 +131,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               /></svg
-          ></router-link>
+          ></span>
         </div>
       </div>
       <div class="cert mt-5">
@@ -136,8 +139,8 @@
           <span class="font-medium">forms</span>
           <span>Unify forms</span>
         </p>
-        <div class="mt-3">
-          <router-link to="" class="flex items-center text-sm inact">
+        <div class="mt-3" @click="toggleModal">
+          <span to="" class="flex items-center text-sm cursor-pointer">
             <span>Go to forms</span>
             <svg
               width="17"
@@ -161,7 +164,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               /></svg
-          ></router-link>
+          ></span>
         </div>
       </div>
     </div>
@@ -252,7 +255,7 @@
                 </p>
                 <div class="mt-3">
                   <router-link to="" class="flex items-center text-sm inact">
-                    <span>Visit site</span>
+                    <span>Go to forms</span>
                     <svg
                       width="17"
                       height="15"
@@ -293,6 +296,10 @@
 <script setup>
 import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
+import FormModalVue from "./FormModal.vue";
+import FormModal from "./FormModal.vue";
+
+const showModal = ref(false);
 const showNav = ref(false);
 const openNav = ref(false);
 const mobilePro = ref(false);
@@ -310,6 +317,10 @@ const showMobilePro = () => {
 const closeNavOnRoute = () => {
   openNav.value = false;
 };
+
+const toggleModal = () =>{
+  showModal.value = !showModal.value
+}
 </script>
 
 <style scoped>

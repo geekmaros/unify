@@ -30,7 +30,8 @@ module.exports = {
         "unify-purple-500": "#452763",
         "unify-pink-100": "#ECD8FF",
         "unify-btn": "#A999B9",
-        "unify-landing": "#E9F4FF"
+        "unify-landing": "#E9F4FF",
+        "backdrop": "rgba(0, 0, 0, 0.5)"
       },
       flexBasis: {
         "279px": "17.4375rem",
