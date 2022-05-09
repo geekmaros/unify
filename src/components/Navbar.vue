@@ -138,7 +138,7 @@
         </p>
         <div class="mt-3">
           <router-link to="" class="flex items-center text-sm inact">
-            <span>Visit site</span>
+            <span>Go to forms</span>
             <svg
               width="17"
               height="15"
