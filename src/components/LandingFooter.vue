@@ -157,9 +157,9 @@
 
           <a
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            href="#"
+            href="https://www.youtube.com/channel/UCRwImTql8NkiAp1gDICUE4Q"
             target="_blank"
-            >LinkedIn</a
+            >YouTube</a
           >
         </div>
       </div>
