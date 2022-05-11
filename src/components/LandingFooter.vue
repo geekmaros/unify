@@ -118,7 +118,7 @@
 
           <router-link
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            to="/privacy_policy"
+            to="/terms&conditions"
             >Terms & Conditions</router-link
           >
 
@@ -136,26 +136,30 @@
         <div class="about-nav mt-30px">
           <a
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            href="#"
+            href="https://www.instagram.com/unify_ng/"
+            target="_blank"
             >Instagram</a
           >
 
           <a
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            href="#"
+            href="https://web.facebook.com/unifyng/"
+            target="_blank"
             >Facebook</a
           >
 
           <a
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            href="#"
+            href="https://twitter.com/unify_ng"
+            target="_blank"
             >Twitter</a
           >
 
           <a
             class="leading-150 mb-5 block hover:text-white tracking-0.01 text-unify-pink-100"
-            href="#"
-            >LinkedIn</a
+            href="https://www.youtube.com/channel/UCRwImTql8NkiAp1gDICUE4Q"
+            target="_blank"
+            >YouTube</a
           >
         </div>
       </div>
