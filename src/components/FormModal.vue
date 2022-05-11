@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-backdrop w-full pb-16 px-20 lg:px-44 pt-20 absolute top-0 z-20"
+    class="bg-backdrop w-full pb-16 px-11 lg:px-44 pt-20 absolute top-0 z-20"
     @click.self="closeModal"
   >
     <div class="bg-white p-4 rounded-lg">
