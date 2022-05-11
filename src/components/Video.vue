@@ -1,12 +1,11 @@
 <template>
   <main class="relative h-[60vh] sm:h-[80vh] mt-28" data-aos="fade-up">
-    <video
-      controls
-      class="max-w-[343px] max-h-[221px] sm:max-w-[715px] sm:max-h-[339px] lg:max-w-[915px] lg:max-h-[439px] mx-auto absolute video"
-      poster="../assets/landing/thumbnail.png"
-    >
-      <source src="../assets/video.mp4" type="video/mp4" />
-    </video>
+    <iframe
+      src="https://www.youtube.com/embed/-DYElq-8B1w"
+      title="YouTube video player"
+      frameborder="0"
+      class="w-[343px] h-[221px] sm:w-[715px] sm:h-[339px] lg:w-[915px] lg:h-[439px] mx-auto absolute video"
+    ></iframe>
     <div class="h-1/2 bg-unify-beige"></div>
     <div class="h-1/2"></div>
   </main>
