@@ -1,8 +1,5 @@
 <template>
   <!-- :class="showNav ? 'shadow-2xl h-64 md:pb-8 ' : 'h-16'" -->
-  <div v-if="showModal">
-    <FormModalVue @close="toggleModal" class=" z-40"/>
-  </div>
   <nav
     class="p-4 lg:px-140px lg:py-15px md:px-70px transition-all ease-in-out duration-700 border-b-2 md:border-none overflow-hidden"
   >
@@ -44,7 +41,6 @@
         xmlns="http://www.w3.org/2000/svg"
         class="md:hidden cursor-pointer"
         @click="showOpenNav"
-
       >
         <path
           d="M21 7H3.00002"
@@ -65,7 +61,10 @@
   </nav>
 
   <!-- product -->
-  <div class="transition-all ease-in-out duration-700 flex items-start pt-5 p-4 lg:px-140px absolute bg-white z-20 w-full border-b-2 md:px-70px " :class="showNav ? 'hidden md:flex' : 'hidden'">
+  <div
+    class="transition-all ease-in-out duration-700 flex items-start pt-5 p-4 lg:px-140px absolute bg-white z-20 w-full border-b-2 md:px-70px"
+    :class="showNav ? 'hidden md:flex' : 'hidden'"
+  >
     <div class="title font-medium text-lg w-1/2">Products by Unify</div>
     <div class="w-1/2">
       <div class="cert">
@@ -169,7 +168,7 @@
       </div>
     </div>
   </div>
-<!-- product end -->
+  <!-- product end -->
 
   <div
     :class="
@@ -217,11 +216,11 @@
             <div class="mb-7">
               <div class="cert">
                 <p class="flex items-center space-x-3">
-                 <img src="../assets/certi.svg" alt="">
+                  <img src="../assets/certi.svg" alt="" />
                   <span>Certification by Unify</span>
                 </p>
                 <div class="mt-3">
-                  <router-link to="" class="flex items-center text-sm inact">
+                  <span to="" class="flex items-center text-sm inact cursor-pointer">
                     <span>Visit site</span>
                     <svg
                       width="17"
@@ -245,7 +244,7 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       /></svg
-                  ></router-link>
+                  ></span>
                 </div>
               </div>
               <div class="cert mt-5">
@@ -254,7 +253,7 @@
                   <span>Unify forms</span>
                 </p>
                 <div class="mt-3">
-                  <router-link to="" class="flex items-center text-sm inact">
+                  <span to="" class="flex items-center text-sm inact cursor-pointer" @click="toggleModal">
                     <span>Go to forms</span>
                     <svg
                       width="17"
@@ -278,7 +277,7 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       /></svg
-                  ></router-link>
+                  ></span>
                 </div>
               </div>
             </div>
@@ -292,17 +291,19 @@
       </div>
     </nav>
   </div>
+  <div v-if="openModal">
+    <FormModalVue @close="toggleModal" />
+  </div>
 </template>
 <script setup>
 import { ref } from "@vue/reactivity";
 import BtnVue from "./Btn.vue";
 import FormModalVue from "./FormModal.vue";
-import FormModal from "./FormModal.vue";
 
-const showModal = ref(false);
 const showNav = ref(false);
 const openNav = ref(false);
 const mobilePro = ref(false);
+const openModal = ref(false);
 const showProdNav = () => {
   showNav.value = !showNav.value;
 };
@@ -318,9 +319,9 @@ const closeNavOnRoute = () => {
   openNav.value = false;
 };
 
-const toggleModal = () =>{
-  showModal.value = !showModal.value
-}
+const toggleModal = () => {
+  openModal.value = !openModal.value;
+};
 </script>
 
 <style scoped>
